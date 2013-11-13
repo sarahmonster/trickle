@@ -79,12 +79,16 @@ NAVIGATION STYLES
 		box-shadow: 1px 2px 4px rgba(1,2,2,.2);
 		background: $black url('../images/diagonal.png') top center repeat;
 		background-size: 300px 199px;
-		padding: 10px 3px;
+		padding: 3px 3px;
 	
 		li {
-			padding: 5px;
+			padding: 3px;
 			background: lighten($green, 50%);
 			margin: 10px;
+			
+			&:hover, &:focus {
+				background-color: $white;
+			}
 	
 			a {
 				background: $white;
@@ -95,7 +99,8 @@ NAVIGATION STYLES
 				font-size: .95em;
 	
 				&:hover, &:focus {
-					background-color: lighten($blue, 10%);
+					background-color: lighten($green, 30%);
+					border: 1px solid $green;
 					color: $white;
 				}
 			}
