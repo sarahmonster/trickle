@@ -43,11 +43,11 @@
 
 		<div id="container">
 
-			<header class="header" role="banner">
+			<header id="header" role="banner">
 
 				<div id="inner-header" class="wrap clearfix">
 
-					<a id="mobile-menu" class="image-replacement">Menu</a>
+					<a id="mobile-menu-button" class="image-replacement">Menu</a>
 					
 					<p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
