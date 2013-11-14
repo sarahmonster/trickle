@@ -17,7 +17,10 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
-body {}
+body {
+	background: url('../images/bg.png');
+	background-size: 500px 199px;
+}
 
 /*********************
 LAYOUT & GRID STYLES
@@ -25,6 +28,7 @@ LAYOUT & GRID STYLES
 
 .wrap {
 	max-width: 1140px;
+	background: $white;
 }
 
 
@@ -113,6 +117,7 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
+	margin-left: -5.801104972%;
 
 	.nav {
 		border-bottom: 1px solid $green;
