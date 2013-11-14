@@ -59,6 +59,48 @@ HEADER STYLES
 				text-decoration: none;
 			}
 		}
+		
+		#menu-top-links {
+			display: block;
+			border: 0;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: .9em;
+			float: right;
+			margin: 0;
+			
+			li {
+				display: inline-block;
+				margin: 0px 20px 0 0;
+				
+				&:last-of-type {
+					margin-right: 0px;
+				}
+				
+				a {
+					background: none;
+					display: inline;
+					border: none;
+					height: 16px;
+					background: url('../images/top-links.png') 0 0 no-repeat;
+					background-size: 19px 128px;
+					padding: 0 5px 0 25px;
+				}
+				
+				&:nth-of-type(2) a {
+					background-position: 0px -32px;
+				}
+					
+				&:nth-of-type(3) a {
+					background-position: 0px -64px;
+				}
+				
+				&:nth-of-type(4) a {
+					background-position: 0px -96px;
+				}
+			}
+		}
 	
 	}
 

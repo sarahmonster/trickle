@@ -49,12 +49,13 @@
 
 					<a id="mobile-menu-button" class="image-replacement">Menu</a>
 					
-					<p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<p id="logo" class="fourcol first clearfix"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
 					<?php // bloginfo('description'); ?>
+					
+					<?php bones_top_links(); ?>
 
-
-					<nav role="navigation">
+					<nav role="mobile" class="eightcol last clearfix">
 						<?php bones_main_nav(); ?>
 					</nav>
 
