@@ -162,4 +162,28 @@ function bones_wpsearch($form) {
 } // don't remove this bracket!
 
 
+
+// Use header images 
+
+$args = array(
+	'default-image'          => '',
+	'random-default'         => false,
+	'width'                  => 1140,
+	'height'                 => 200,
+	'flex-height'            => true,
+	'flex-width'             => true,
+	'default-text-color'     => '',
+	'header-text'            => true,
+	'uploads'                => true,
+	'wp-head-callback'       => '',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => '',
+);
+add_theme_support( 'custom-header', $args );
+
+
+
+
+
+
 ?>

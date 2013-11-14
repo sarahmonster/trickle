@@ -54,6 +54,8 @@
 					<?php // bloginfo('description'); ?>
 					
 					<?php bones_top_links(); ?>
+					
+					<img id="header-image" src="<?php header_image(); ?>" alt="" />
 
 					<nav role="mobile" class="eightcol last clearfix">
 						<?php bones_main_nav(); ?>
