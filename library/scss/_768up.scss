@@ -28,6 +28,9 @@ LAYOUT & GRID STYLES
 
 .wrap {
 	max-width: 1140px;
+}
+
+#inner-header, #inner-content {
 	background: $white;
 }
 
@@ -40,10 +43,10 @@ HEADER STYLES
 	background: none;
 	border: none;
 	box-shadow: none;
+	padding: 0;
 	
 	#inner-header {
 		padding: 0;
-		background: none;
 		border: none;
 	
 		#mobile-menu-button {
@@ -72,7 +75,7 @@ HEADER STYLES
 			letter-spacing: 1px;
 			font-size: .9em;
 			float: right;
-			margin: 0;
+			margin: 10px 0 5px 0;
 			
 			li {
 				display: inline-block;
