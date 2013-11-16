@@ -136,7 +136,7 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin-left: -40px;
+	margin-left: -50px;
 
 	.nav {
 		border-bottom: 1px solid $green;
@@ -366,6 +366,17 @@ SIDEBARS & ASIDES
 	.textwidget {}
 	.widget_text {}
 	.textwidget p {}
+
+
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#main {
+	margin-top: 2.2em;
+}
+
 
 
 /*********************
