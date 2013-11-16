@@ -55,16 +55,15 @@ HEADER STYLES
 		}
 		
 		#logo {
-			float: left;
-			font-size: 1.2em;
-			text-transform: uppercase;
-			letter-spacing: 1px;
-			font-family: $serif;
-			margin: 0 10px;
+			margin: -30px 0 -50px 20px;
 			
 			a {
-				color: $blue;
-				text-decoration: none;
+				float: left;
+				width: 174px;
+				height: 129px;
+				background: url('../images/logo.png');
+				background-size: cover;
+				@include image_replacement;
 			}
 		}
 		
