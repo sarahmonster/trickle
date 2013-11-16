@@ -198,6 +198,33 @@ HEADER STYLES
 				text-decoration: none;
 			}
 		}
+		
+		#book {
+			display: table;
+			height: 100px;
+			width: 100px;
+			background: url('../images/book-appointment.png');
+			background-size: cover;
+			position: absolute;
+			right: -10px;
+			top: 50px;
+			color: $white;
+			text-decoration: none;
+			font-family: $serif;
+			font-size: 1.2em;
+			line-height: 1.2em;
+			text-align: center;
+			
+			div {
+				  display: table-cell; 
+				  vertical-align: middle; 
+				  padding-bottom: 10px;
+				  
+				  span {
+					  display: none;
+				  }
+			}
+		}
 	
 	}
 	

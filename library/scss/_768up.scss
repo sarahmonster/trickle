@@ -129,25 +129,18 @@ HEADER STYLES
 		}
 		
 		#book {
-			display: table;
 			height: 167px;
 			width: 167px;
-			background: url('../images/book-appointment.png');
-			background-size: cover;
-			position: absolute;
 			right: -40px;
 			top: 35%;
-			color: $white;
-			text-decoration: none;
-			font-family: $serif;
 			font-size: 1.2em;
-			text-align: center;
 			line-height: 1.2em;
 			
-			span {
-				  display: table-cell; 
-				  vertical-align: middle; 
-				  padding-bottom: 10px;
+			div {
+				span {
+					display: inline;
+					padding: 0;
+				}
 			}
 		}
 	
