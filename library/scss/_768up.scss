@@ -32,6 +32,7 @@ LAYOUT & GRID STYLES
 
 #inner-header, #inner-content {
 	background: $white;
+	@include vendor-prefix(box-shadow, 1px 2px 8px rgba(1,2,2,.25));
 }
 
 
