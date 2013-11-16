@@ -22,6 +22,34 @@ body {
 	background-size: 500px 199px;
 }
 
+h2 {
+	margin: 4em 0 2em;
+	
+		&:before, &:after {
+			content: "";
+			display: inline-block;
+			height: 24px;
+			position: relative;
+			vertical-align: middle;
+			width: 202px;
+			background: url('../images/header.png');
+			background-size: 239px 24px;
+			opacity: .25;
+	}
+	
+		&:before {
+	    	right: 0.5em;
+	    	margin-left: -50%;
+	    	background-position: left center;
+		}
+	
+		&:after {
+	    	left: 0.5em;
+			margin-right: -50%;
+			background-position: right center;
+		}
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
