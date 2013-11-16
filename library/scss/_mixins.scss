@@ -141,6 +141,12 @@ BROWSER PREFIXES
   #{$name}: #{$argument};
 }
 
+/*********************
+SHADOWS
+*********************/
+@mixin box-shadow ($horizontal: 0px, $vertical: 2px, $shadow-width: 4px, $shadow-color: rgba(1, 2, 2, .25)) {
+    @include vendor-prefix(box-shadow, $horizontal $vertical $shadow-width $shadow-color);
+}
 
 /*********************
 TRANSITION
