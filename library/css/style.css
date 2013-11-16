@@ -772,34 +772,34 @@ BUTTONS
 
 /* line 232, ../scss/_mixins.scss */
 .blue-button, .blue-button:visited {
-  border-color: #4d766e;
-  text-shadow: 0 1px 1px #4d766e;
-  background-color: #57867d;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#61958b), to(#57867d));
-  background-image: -webkit-linear-gradient(top, #61958b, #57867d);
-  background-image: -moz-linear-gradient(top, #61958b, #57867d);
-  background-image: -o-linear-gradient(top, #61958b, #57867d);
-  background-image: linear-gradient(to bottom, #61958b, #57867d);
-  box-shadow: inset 0 0 3px #91b7b0;
+  border-color: #4d6776;
+  text-shadow: 0 1px 1px #4d6776;
+  background-color: #577586;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#618295), to(#577586));
+  background-image: -webkit-linear-gradient(top, #618295, #577586);
+  background-image: -moz-linear-gradient(top, #618295, #577586);
+  background-image: -o-linear-gradient(top, #618295, #577586);
+  background-image: linear-gradient(to bottom, #618295, #577586);
+  box-shadow: inset 0 0 3px #91a9b7;
 }
 /* line 238, ../scss/_mixins.scss */
 .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
-  border-color: #436760;
-  background-color: #4d766e;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#59897f), to(#4d766e));
-  background-image: -webkit-linear-gradient(top, #59897f, #4d766e);
-  background-image: -moz-linear-gradient(top, #59897f, #4d766e);
-  background-image: -o-linear-gradient(top, #59897f, #4d766e);
-  background-image: linear-gradient(to bottom, #59897f, #4d766e);
+  border-color: #435a67;
+  background-color: #4d6776;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#597789), to(#4d6776));
+  background-image: -webkit-linear-gradient(top, #597789, #4d6776);
+  background-image: -moz-linear-gradient(top, #597789, #4d6776);
+  background-image: -o-linear-gradient(top, #597789, #4d6776);
+  background-image: linear-gradient(to bottom, #597789, #4d6776);
 }
 /* line 242, ../scss/_mixins.scss */
 .blue-button:active, .blue-button:visited:active {
-  background-color: #61958b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#57867d), to(#61958b));
-  background-image: -webkit-linear-gradient(top, #57867d, #61958b);
-  background-image: -moz-linear-gradient(top, #57867d, #61958b);
-  background-image: -o-linear-gradient(top, #57867d, #61958b);
-  background-image: linear-gradient(to bottom, #57867d, #61958b);
+  background-color: #618295;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#577586), to(#618295));
+  background-image: -webkit-linear-gradient(top, #577586, #618295);
+  background-image: -moz-linear-gradient(top, #577586, #618295);
+  background-image: -o-linear-gradient(top, #577586, #618295);
+  background-image: linear-gradient(to bottom, #577586, #618295);
 }
 
 /*
@@ -892,7 +892,7 @@ a, a:visited {
 }
 /* line 84, ../scss/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #61958b;
+  color: #618295;
 }
 /* line 94, ../scss/_base.scss */
 a:link, a:visited:link {
@@ -924,7 +924,7 @@ h1, .h1 {
   line-height: 1.333em;
   color: #a0949d;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 /* line 125, ../scss/_base.scss */
 h1::after, .h1::after {
@@ -940,8 +940,8 @@ h1::after, .h1::after {
 
 /* line 137, ../scss/_base.scss */
 h2, .h2 {
-  font-size: 1.25em;
-  color: #6d616a;
+  font-size: 1.15em;
+  color: #618295;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -1005,7 +1005,7 @@ HEADER STYLES
 }
 /* line 196, ../scss/_base.scss */
 #header #inner-header #logo a {
-  color: #61958b;
+  color: #618295;
   text-decoration: none;
 }
 /* line 204, ../scss/_base.scss */

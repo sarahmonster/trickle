@@ -209,34 +209,34 @@ BUTTONS
 
 /* line 232, ../scss/_mixins.scss */
 .blue-button, .blue-button:visited {
-  border-color: #4d766e;
-  text-shadow: 0 1px 1px #4d766e;
-  background-color: #57867d;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#61958b), to(#57867d));
-  background-image: -webkit-linear-gradient(top, #61958b, #57867d);
-  background-image: -moz-linear-gradient(top, #61958b, #57867d);
-  background-image: -o-linear-gradient(top, #61958b, #57867d);
-  background-image: linear-gradient(to bottom, #61958b, #57867d);
-  box-shadow: inset 0 0 3px #91b7b0;
+  border-color: #4d6776;
+  text-shadow: 0 1px 1px #4d6776;
+  background-color: #577586;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#618295), to(#577586));
+  background-image: -webkit-linear-gradient(top, #618295, #577586);
+  background-image: -moz-linear-gradient(top, #618295, #577586);
+  background-image: -o-linear-gradient(top, #618295, #577586);
+  background-image: linear-gradient(to bottom, #618295, #577586);
+  box-shadow: inset 0 0 3px #91a9b7;
 }
 /* line 238, ../scss/_mixins.scss */
 .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
-  border-color: #436760;
-  background-color: #4d766e;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#59897f), to(#4d766e));
-  background-image: -webkit-linear-gradient(top, #59897f, #4d766e);
-  background-image: -moz-linear-gradient(top, #59897f, #4d766e);
-  background-image: -o-linear-gradient(top, #59897f, #4d766e);
-  background-image: linear-gradient(to bottom, #59897f, #4d766e);
+  border-color: #435a67;
+  background-color: #4d6776;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#597789), to(#4d6776));
+  background-image: -webkit-linear-gradient(top, #597789, #4d6776);
+  background-image: -moz-linear-gradient(top, #597789, #4d6776);
+  background-image: -o-linear-gradient(top, #597789, #4d6776);
+  background-image: linear-gradient(to bottom, #597789, #4d6776);
 }
 /* line 242, ../scss/_mixins.scss */
 .blue-button:active, .blue-button:visited:active {
-  background-color: #61958b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#57867d), to(#61958b));
-  background-image: -webkit-linear-gradient(top, #57867d, #61958b);
-  background-image: -moz-linear-gradient(top, #57867d, #61958b);
-  background-image: -o-linear-gradient(top, #57867d, #61958b);
-  background-image: linear-gradient(to bottom, #57867d, #61958b);
+  background-color: #618295;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#577586), to(#618295));
+  background-image: -webkit-linear-gradient(top, #577586, #618295);
+  background-image: -moz-linear-gradient(top, #577586, #618295);
+  background-image: -o-linear-gradient(top, #577586, #618295);
+  background-image: linear-gradient(to bottom, #577586, #618295);
 }
 
 /******************************************************************
