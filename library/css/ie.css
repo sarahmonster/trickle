@@ -160,7 +160,7 @@ probably best not to use it. I mean, were you going to anyway? */
 /*********************
 BUTTONS
 *********************/
-/* line 201, ../scss/_mixins.scss */
+/* line 200, ../scss/_mixins.scss */
 .button, .button:visited {
   font-family: "Caecilia", Helvetica, Arial, sans-serif;
   border: 1px solid #5c6d47;
@@ -184,7 +184,7 @@ BUTTONS
   background-image: -o-linear-gradient(top, #7e9561, #718657);
   background-image: linear-gradient(to bottom, #7e9561, #718657);
 }
-/* line 220, ../scss/_mixins.scss */
+/* line 219, ../scss/_mixins.scss */
 .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
   color: white;
   border: 1px solid #5c6d47;
@@ -197,7 +197,7 @@ BUTTONS
   background-image: -o-linear-gradient(top, #718657, #64764d);
   background-image: linear-gradient(to bottom, #718657, #64764d);
 }
-/* line 228, ../scss/_mixins.scss */
+/* line 227, ../scss/_mixins.scss */
 .button:active, .button:visited:active {
   background-color: #7e9561;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#718657), to(#7e9561));
@@ -207,7 +207,7 @@ BUTTONS
   background-image: linear-gradient(to bottom, #718657, #7e9561);
 }
 
-/* line 233, ../scss/_mixins.scss */
+/* line 232, ../scss/_mixins.scss */
 .blue-button, .blue-button:visited {
   border-color: #4d766e;
   text-shadow: 0 1px 1px #4d766e;
@@ -219,7 +219,7 @@ BUTTONS
   background-image: linear-gradient(to bottom, #61958b, #57867d);
   box-shadow: inset 0 0 3px #91b7b0;
 }
-/* line 239, ../scss/_mixins.scss */
+/* line 238, ../scss/_mixins.scss */
 .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
   border-color: #436760;
   background-color: #4d766e;
@@ -229,7 +229,7 @@ BUTTONS
   background-image: -o-linear-gradient(top, #59897f, #4d766e);
   background-image: linear-gradient(to bottom, #59897f, #4d766e);
 }
-/* line 243, ../scss/_mixins.scss */
+/* line 242, ../scss/_mixins.scss */
 .blue-button:active, .blue-button:visited:active {
   background-color: #61958b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#57867d), to(#61958b));
@@ -645,14 +645,15 @@ NAVIGATION STYLES
   text-align: center;
   font-size: .9em;
   font-weight: bold;
+  transition: background-color .25s linear;
 }
-/* line 194, ../scss/_768up.scss */
+/* line 195, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
   background-color: #b0bf9d;
   border: 1px solid #7e9561;
   color: white;
 }
-/* line 208, ../scss/_768up.scss */
+/* line 209, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu,
 #sidebar-nav .nav li ul.children {
   margin-top: -11px;
@@ -665,24 +666,24 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 220, ../scss/_768up.scss */
+/* line 221, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a,
 #sidebar-nav .nav li ul.children li a {
   display: block;
 }
-/* line 224, ../scss/_768up.scss */
+/* line 225, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
 #sidebar-nav .nav li ul.children li a:hover,
 #sidebar-nav .nav li ul.children li a:focus {
   background: #97ab7e;
 }
-/* line 247, ../scss/_768up.scss */
+/* line 248, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover > a {
   background: #c9d3bc;
   border: 1px solid #7e9561;
   color: white;
 }
-/* line 253, ../scss/_768up.scss */
+/* line 254, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover ul {
   display: block;
 }
@@ -690,28 +691,28 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 275, ../scss/_768up.scss */
+/* line 276, ../scss/_768up.scss */
 #sidebar-nav {
   margin-top: 2.2em;
 }
 
-/* line 279, ../scss/_768up.scss */
+/* line 280, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 284, ../scss/_768up.scss */
+/* line 285, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 289, ../scss/_768up.scss */
+/* line 290, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 297, ../scss/_768up.scss */
+/* line 298, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -731,7 +732,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 399, ../scss/_768up.scss */
+/* line 400, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
 }
@@ -744,7 +745,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 416, ../scss/_768up.scss */
+/* line 417, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

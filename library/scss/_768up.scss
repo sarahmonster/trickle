@@ -190,6 +190,7 @@ NAVIGATION STYLES
 				text-align: center;
 				font-size: .9em;
 				font-weight: bold;
+				transition: background-color .25s linear;
 	
 				&:hover, &:focus {
 					background-color: lighten($green, 20%);

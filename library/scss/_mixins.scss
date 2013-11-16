@@ -153,13 +153,12 @@ Thanks to @anthonyshort for the inspiration on these.
 USAGE: @include transition(all 0.2s ease-in-out);
 */
 
-@mixin transition($transition...) {
+@mixin transition($transition) {
 	// defining prefixes so we can use them in mixins below
-	$prefixes:      ("-webkit",  "");
+	$prefixes:      ("-webkit",  "-ms", "-moz", "-o");
   @each $prefix in $prefixes {
     #{$prefix}-transition: $transition;
   }
-
   transition: $transition;
 }
 
