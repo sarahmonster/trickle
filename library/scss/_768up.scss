@@ -188,10 +188,11 @@ NAVIGATION STYLES
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				text-align: center;
-				font-size: .95em;
+				font-size: .9em;
+				font-weight: bold;
 	
 				&:hover, &:focus {
-					background-color: lighten($green, 30%);
+					background-color: lighten($green, 20%);
 					border: 1px solid $green;
 					color: $white;
 				}
@@ -201,47 +202,36 @@ NAVIGATION STYLES
 			&:last-child {}
 	
 			/*
-			plan your menus and drop-downs wisely.
+			sub-menus!
 			*/
 			ul.sub-menu,
 			ul.children {
-				margin-top: 0;
-				border: 1px solid #ccc;
+				margin-top: -11px;
+				padding-top: 11px;
+				border: 1px solid $green;
+				background: lighten($green, 30%);
 				border-top: 0;
-				position: absolute;
+				position: relative;
 				display: none;
 				z-index: 8999;
 	
 				li {
 	
 					a {
-						padding-left: 10px;
-						border-right: 0;
 						display: block;
-						width: 180px;
-						border-bottom: 1px solid #ccc;
 	
 						&:hover,
-						&:focus {}
+						&:focus {
+							background: lighten($green, 10%);
+						}
 	
 						&:link {}
 					}
 	
 					&:first-child {}
 	
-					&:last-child {
+					&:last-child {}
 	
-						a {
-							border-bottom: 0;
-						}
-					}
-	
-					/*
-					if you need to go deeper, go nuts
-					just remember deeper menus suck
-					for usability. k, bai.
-					*/
-					ul {}
 				}
 	
 				/* highlight sub-menu current page */
@@ -253,9 +243,16 @@ NAVIGATION STYLES
 			}
 	
 			/* showing sub-menus */
-			&:hover ul {
-				top: auto;
-				display: block;
+			&:hover {
+				& > a {
+					background: lighten($green, 30%);
+					border: 1px solid $green;
+					color: $white;
+				}
+				
+				ul {
+					display: block;
+				}	
 			}
 	
 		} /* end .menu ul li */

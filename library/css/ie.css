@@ -628,7 +628,7 @@ NAVIGATION STYLES
   background: #fbfbfa;
   margin: 10px;
   /*
-  plan your menus and drop-downs wisely.
+  sub-menus!
   */
   /* showing sub-menus */
 }
@@ -643,79 +643,75 @@ NAVIGATION STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  font-size: .95em;
+  font-size: .9em;
+  font-weight: bold;
 }
-/* line 193, ../scss/_768up.scss */
+/* line 194, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
-  background-color: #c9d3bc;
+  background-color: #b0bf9d;
   border: 1px solid #7e9561;
   color: white;
 }
-/* line 207, ../scss/_768up.scss */
+/* line 208, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu,
 #sidebar-nav .nav li ul.children {
-  margin-top: 0;
-  border: 1px solid #ccc;
+  margin-top: -11px;
+  padding-top: 11px;
+  border: 1px solid #7e9561;
+  background: #c9d3bc;
   border-top: 0;
-  position: absolute;
+  position: relative;
   display: none;
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 215, ../scss/_768up.scss */
-#sidebar-nav .nav li ul.sub-menu li,
-#sidebar-nav .nav li ul.children li {
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-/* line 217, ../scss/_768up.scss */
+/* line 220, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a,
 #sidebar-nav .nav li ul.children li a {
-  padding-left: 10px;
-  border-right: 0;
   display: block;
-  width: 180px;
-  border-bottom: 1px solid #ccc;
 }
-/* line 234, ../scss/_768up.scss */
-#sidebar-nav .nav li ul.sub-menu li:last-child a,
-#sidebar-nav .nav li ul.children li:last-child a {
-  border-bottom: 0;
+/* line 224, ../scss/_768up.scss */
+#sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
+#sidebar-nav .nav li ul.children li a:hover,
+#sidebar-nav .nav li ul.children li a:focus {
+  background: #97ab7e;
 }
-/* line 256, ../scss/_768up.scss */
+/* line 247, ../scss/_768up.scss */
+#sidebar-nav .nav li:hover > a {
+  background: #c9d3bc;
+  border: 1px solid #7e9561;
+  color: white;
+}
+/* line 253, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover ul {
-  top: auto;
   display: block;
 }
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 278, ../scss/_768up.scss */
+/* line 275, ../scss/_768up.scss */
 #sidebar-nav {
   margin-top: 2.2em;
 }
 
-/* line 282, ../scss/_768up.scss */
+/* line 279, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 287, ../scss/_768up.scss */
+/* line 284, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 292, ../scss/_768up.scss */
+/* line 289, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 300, ../scss/_768up.scss */
+/* line 297, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -735,7 +731,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 402, ../scss/_768up.scss */
+/* line 399, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
 }
@@ -748,7 +744,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 419, ../scss/_768up.scss */
+/* line 416, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
