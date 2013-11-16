@@ -55,7 +55,9 @@
 					
 					<?php bones_top_links(); ?>
 					
-					<img id="header-image" src="<?php header_image(); ?>" alt="" />
+					<img id="header-image" src="<?php header_image(); ?>" alt="Cascades Day Spa, Bedford NS" />
+					
+					<a id="book" href="<?php echo get_page_link(36); ?>"><span>Book an Appointment Online</span></a>
 
 					<nav role="mobile" class="eightcol last clearfix">
 						<?php bones_main_nav(); ?>
