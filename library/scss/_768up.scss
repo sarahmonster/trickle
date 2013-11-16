@@ -35,6 +35,15 @@ LAYOUT & GRID STYLES
 	@include vendor-prefix(box-shadow, 1px 2px 8px rgba(1,2,2,.25));
 }
 
+#inner-content::before {
+	height: 10px;
+	width: 100%;
+	background: $white;
+	content: '';
+	top: -10px;
+	position: relative;
+}
+
 
 /*********************
 HEADER STYLES
@@ -47,7 +56,7 @@ HEADER STYLES
 	padding: 0;
 	
 	#inner-header {
-		padding: 0;
+		padding: 0 50px 10px;
 		border: none;
 	
 		#mobile-menu-button {
@@ -55,7 +64,7 @@ HEADER STYLES
 		}
 		
 		#logo {
-			margin: -30px 0 -50px 20px;
+			margin: -20px 0 -70px 40px;
 			
 			a {
 				float: left;
@@ -127,7 +136,7 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin-left: -5.801104972%;
+	margin-left: -40px;
 
 	.nav {
 		border-bottom: 1px solid $green;
