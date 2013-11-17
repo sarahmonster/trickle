@@ -217,7 +217,15 @@ NAVIGATION STYLES
 			&:hover, &:focus {
 				background-color: $white;
 			}
-				
+			
+			a {
+				&:hover, &:focus {
+					background-color: lighten($green, 20%);
+					border: 1px solid $green;
+					color: $white;
+				}
+			}	
+			
 			/* sub-menus! */
 			ul.sub-menu,
 			ul.children {
@@ -231,30 +239,18 @@ NAVIGATION STYLES
 				z-index: 8999;
 	
 				li {
-	
+					padding: 3px;
+					margin: 10px;
+				
 					a {
-						display: block;
-	
-						&:hover,
-						&:focus {
+			
+						&:hover, &:focus {
 							background: lighten($green, 10%);
 						}
-	
-						&:link {}
+		
 					}
-	
-					&:first-child {}
-	
-					&:last-child {}
-	
 				}
 	
-				/* highlight sub-menu current page */
-				li.current-menu-item,
-				li.current_page_item,
-				li.current-page-ancestor {
-					a {}
-				}
 			}
 	
 			/* showing sub-menus */

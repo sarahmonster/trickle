@@ -218,6 +218,8 @@ HEADER STYLES
 
 
 .slicknav_menu  {
+	/* for elderly IE */
+	*zoom: 1;
 	
 	.slicknav_btn { 
 		display: block;
@@ -243,14 +245,31 @@ HEADER STYLES
 			display: none;
 		}
 	}
+	
+	.slicknav_arrow { 
+		font-size: 0.8em; 
+		margin: 0 0 0 0.4em; 
+	}
+	.slicknav_item { 
+		display: block; 
+		cursor: pointer; 
+		
+		a {
+			display: inline;
+			border: none;
+		}
+	}
+	
+	&:before, &:after {
+		content: " "; 
+		display: table;
+	}
+	
+	&:after { 
+		clear: both; 
+	}
 		
 }
-
-
-
-
-
-
 
 
 
@@ -258,13 +277,7 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
+/* Styles used for both main menus */
 
 #sidebar-nav .nav, .slicknav_nav {
 
@@ -272,10 +285,6 @@ and more scalable.
 		padding: 3px;
 		background: lighten($green, 45%);
 		margin: 5px 0;
-			
-		&:hover, &:focus {
-			background-color: lighten($green, 50%);
-		}
 	
 			a {
 				display: block;
@@ -289,12 +298,6 @@ and more scalable.
 				font-size: .9em;
 				font-weight: bold;
 				transition: background-color .25s linear;
-	
-				&:hover, &:focus {
-					background-color: lighten($green, 20%);
-					border: 1px solid $green;
-					color: $white;
-				}
 			}
 
 		&:first-child {}
@@ -304,26 +307,14 @@ and more scalable.
 		/* sub-menus! */
 		ul.sub-menu,
 		ul.children {
-			margin-top: -11px;
-			padding-top: 11px;
-			border: 1px solid $green;
-			background: lighten($green, 30%);
-			border-top: 0;
-			position: relative;
-			display: none;
-			z-index: 8999;
+			margin: 5px 0;
 
 			li {
+				margin: 0;
+				padding: 1px 5px;
 
 				a {
 					display: block;
-
-					&:hover,
-					&:focus {
-						background: lighten($green, 10%);
-					}
-
-					&:link {}
 				}
 
 				&:first-child {}
