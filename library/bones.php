@@ -138,9 +138,14 @@ function bones_scripts_and_styles() {
 		if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+		
+		// extras 
+		wp_register_style( 'slicknav-stylesheet', get_stylesheet_directory_uri() . '/library/css/slicknav.css', array(), '', 'all' );
 
 		//adding scripts file in the footer
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+		wp_register_script( 'slicknav', get_stylesheet_directory_uri() . '/library/js/libs/jquery.slicknav.min.js', array( 'jquery' ), '', true );
+		wp_register_script( 'jquery-ui', get_stylesheet_directory_uri() . '/library/js/libs/jquery-ui.min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
 		wp_enqueue_script( 'bones-modernizr' );
@@ -156,6 +161,9 @@ function bones_scripts_and_styles() {
 		*/
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'bones-js' );
+		wp_enqueue_script( 'jquery-ui' );
+		wp_enqueue_script( 'slicknav' );
+		wp_enqueue_style( 'slicknav-stylesheet' );
 
 	}
 }
@@ -211,8 +219,9 @@ function bones_theme_support() {
 	register_nav_menus(
 		array(
 			'main-nav' => __( 'Main Menu', 'bonestheme' ),   // main nav in header
+			'mobile-nav' => __( 'Mobile Menu', 'bonestheme' ),   // menu used on mobile devices
 			'top-links' => __( 'Top Links', 'bonestheme' ), // secondary nav along top of page
-			'footer-links' => __( 'Footer Links', 'bonestheme' ) // secondary nav in footer
+			'footer-links' => __( 'Footer Links', 'bonestheme' ) // tertiary nav in footer (not used)
 		)
 	);
 } /* end bones theme support */
@@ -228,9 +237,28 @@ function bones_main_nav() {
 	wp_nav_menu(array(
 		'container' => false,                           // remove nav container
 		'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
-		'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+		'menu' => __( 'Main Menu', 'bonestheme' ),  // nav name
 		'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
 		'theme_location' => 'main-nav',                 // where it's located in the theme
+		'before' => '',                                 // before the menu
+		'after' => '',                                  // after the menu
+		'link_before' => '',                            // before each link
+		'link_after' => '',                             // after each link
+		'depth' => 0,                                   // limit the depth of the nav
+		'fallback_cb' => 'bones_main_nav_fallback'      // fallback function
+	));
+} /* end bones main nav */
+
+// the mobile menu
+function bones_mobile_nav() {
+	// display the wp3 menu if available
+	wp_nav_menu(array(
+		'container' => false,                           // remove nav container
+		'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+		'menu' => __( 'Mobile Menu', 'bonestheme' ),  // nav name
+		'menu_class' => 'nav mobile-nav clearfix',         // adding custom nav class
+		'menu_id' => 'mobile-menu', 
+		'theme_location' => 'mobile-nav',                 // where it's located in the theme
 		'before' => '',                                 // before the menu
 		'after' => '',                                  // after the menu
 		'link_before' => '',                            // before each link

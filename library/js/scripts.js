@@ -68,6 +68,17 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
+	$(function(){
+		$('#menu').slicknav({
+			label: 'MENU HERE',
+			duration: 1000,
+			easingOpen: "easeOutBounce", //available with jQuery UI
+			prependTo:'#demo'
+		});
+	});
+	
+
+	
  
 }); /* end of as page load scripts */
 

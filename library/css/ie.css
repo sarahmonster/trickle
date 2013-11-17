@@ -615,6 +615,7 @@ HEADER STYLES
 }
 /* line 160, ../scss/_768up.scss */
 #header #inner-header #book {
+  display: table;
   height: 167px;
   width: 167px;
   right: -40px;
@@ -622,22 +623,26 @@ HEADER STYLES
   font-size: 1.2em;
   line-height: 1.2em;
 }
-/* line 169, ../scss/_768up.scss */
+/* line 170, ../scss/_768up.scss */
 #header #inner-header #book div span {
   display: inline;
   padding: 0;
+}
+/* line 177, ../scss/_768up.scss */
+#header #inner-header #mobile-menu {
+  display: none;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 185, ../scss/_768up.scss */
+/* line 190, ../scss/_768up.scss */
 #sidebar-nav {
   display: block;
   margin-left: -50px;
   /* end .nav */
 }
-/* line 189, ../scss/_768up.scss */
+/* line 194, ../scss/_768up.scss */
 #sidebar-nav .nav {
   border-bottom: 1px solid #7e9561;
   background: #fbfbfa url("../images/diagonal.png") top center repeat;
@@ -652,7 +657,7 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 196, ../scss/_768up.scss */
+/* line 201, ../scss/_768up.scss */
 #sidebar-nav .nav li {
   padding: 3px;
   background: #fbfbfa;
@@ -662,11 +667,11 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 201, ../scss/_768up.scss */
+/* line 206, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover, #sidebar-nav .nav li:focus {
   background-color: white;
 }
-/* line 205, ../scss/_768up.scss */
+/* line 210, ../scss/_768up.scss */
 #sidebar-nav .nav li a {
   background: white;
   border: 1px solid #c9d3bc;
@@ -677,13 +682,13 @@ NAVIGATION STYLES
   font-weight: bold;
   transition: background-color .25s linear;
 }
-/* line 215, ../scss/_768up.scss */
+/* line 220, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
   background-color: #b0bf9d;
   border: 1px solid #7e9561;
   color: white;
 }
-/* line 229, ../scss/_768up.scss */
+/* line 234, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu,
 #sidebar-nav .nav li ul.children {
   margin-top: -11px;
@@ -696,24 +701,24 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 241, ../scss/_768up.scss */
+/* line 246, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a,
 #sidebar-nav .nav li ul.children li a {
   display: block;
 }
-/* line 245, ../scss/_768up.scss */
+/* line 250, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
 #sidebar-nav .nav li ul.children li a:hover,
 #sidebar-nav .nav li ul.children li a:focus {
   background: #97ab7e;
 }
-/* line 268, ../scss/_768up.scss */
+/* line 273, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover > a {
   background: #c9d3bc;
   border: 1px solid #7e9561;
   color: white;
 }
-/* line 274, ../scss/_768up.scss */
+/* line 279, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover ul {
   display: block;
 }
@@ -721,28 +726,28 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 296, ../scss/_768up.scss */
+/* line 301, ../scss/_768up.scss */
 #sidebar-nav {
   margin-top: 2.2em;
 }
 
-/* line 300, ../scss/_768up.scss */
+/* line 305, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 305, ../scss/_768up.scss */
+/* line 310, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 310, ../scss/_768up.scss */
+/* line 315, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 318, ../scss/_768up.scss */
+/* line 323, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -762,7 +767,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 420, ../scss/_768up.scss */
+/* line 425, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
 }
@@ -775,7 +780,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 437, ../scss/_768up.scss */
+/* line 442, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

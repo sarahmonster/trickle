@@ -46,8 +46,13 @@
 			<header id="header" role="banner">
 
 				<div id="inner-header" class="wrap clearfix">
-				
-					<a id="mobile-menu-button" class="image-replacement">Menu</a>
+
+					
+					<div id="demo">
+					<ul id="menu">
+						<?php bones_mobile_nav(); ?>
+					</ul>
+					</div>
 					
 					<p id="logo" class="fourcol first clearfix"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
@@ -58,10 +63,6 @@
 					<img id="header-image" src="<?php header_image(); ?>" alt="Cascades Day Spa, Bedford NS" />
 					
 					<a id="book" href="<?php echo get_page_link(36); ?>"><div>Book <span>an Appointment</span> Online</div></a>
-
-					<nav role="mobile" class="eightcol last clearfix">
-						<?php bones_main_nav(); ?>
-					</nav>
 					
 				</div> <?php // end #inner-header ?>
 
