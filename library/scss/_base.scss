@@ -266,53 +266,64 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 
-.nav {
-	border: 1px solid #ccc;
-	border-bottom: 0;
+#sidebar-nav .nav, .slicknav_nav {
 
 	li {
-
-		a {
-			display: block;
-			text-decoration: none;
-			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
-
-			/*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/
-			&:hover, &:focus {
-
-			}
+		padding: 3px;
+		background: lighten($green, 45%);
+		margin: 5px 0;
+			
+		&:hover, &:focus {
+			background-color: lighten($green, 50%);
 		}
+	
+			a {
+				display: block;
+				text-decoration: none;
+				padding: 10px 10px;
+				background: $white;
+				border: 1px solid lighten($green, 30%);
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				text-align: center;
+				font-size: .9em;
+				font-weight: bold;
+				transition: background-color .25s linear;
+	
+				&:hover, &:focus {
+					background-color: lighten($green, 20%);
+					border: 1px solid $green;
+					color: $white;
+				}
+			}
 
 		&:first-child {}
 
 		&:last-child {}
 
-		/*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/
+		/* sub-menus! */
 		ul.sub-menu,
 		ul.children {
+			margin-top: -11px;
+			padding-top: 11px;
+			border: 1px solid $green;
+			background: lighten($green, 30%);
+			border-top: 0;
+			position: relative;
+			display: none;
+			z-index: 8999;
 
 			li {
 
 				a {
+					display: block;
 
 					&:hover,
-					&:focus {}
+					&:focus {
+						background: lighten($green, 10%);
+					}
 
 					&:link {}
-
 				}
 
 				&:first-child {}
@@ -321,21 +332,24 @@ and more scalable.
 
 			}
 
+			/* highlight sub-menu current page */
+			li.current-menu-item,
+			li.current_page_item,
+			li.current-page-ancestor {
+				a {}
+			}
 		}
 
-	} /* end .menu li */
+	} /* end .menu ul li */
 
 	/* highlight current page */
 	li.current-menu-item,
 	li.current_page_item,
 	li.current-page-ancestor {
-
 		a {}
-
 	}  /* end current highlighters */
 
 } /* end .nav */
-
 
 /*********************
 POSTS & CONTENT STYLES

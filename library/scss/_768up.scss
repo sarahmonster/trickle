@@ -211,37 +211,14 @@ NAVIGATION STYLES
 		padding: 3px 3px;
 	
 		li {
-			padding: 3px;
 			background: lighten($green, 50%);
 			margin: 10px;
 			
 			&:hover, &:focus {
 				background-color: $white;
 			}
-	
-			a {
-				background: $white;
-				border: 1px solid lighten($green, 30%);
-				text-transform: uppercase;
-				letter-spacing: 1px;
-				text-align: center;
-				font-size: .9em;
-				font-weight: bold;
-				transition: background-color .25s linear;
-	
-				&:hover, &:focus {
-					background-color: lighten($green, 20%);
-					border: 1px solid $green;
-					color: $white;
-				}
-			}
-	
-			&:first-child {}
-			&:last-child {}
-	
-			/*
-			sub-menus!
-			*/
+				
+			/* sub-menus! */
 			ul.sub-menu,
 			ul.children {
 				margin-top: -11px;
