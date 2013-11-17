@@ -69,11 +69,11 @@ jQuery(document).ready(function($) {
 	// add all your scripts here
 	
 	$(function(){
-		$('#menu').slicknav({
-			label: 'MENU HERE',
+		$('#mobile-menu').slicknav({
+			label: 'Cascades Day Spa',
 			duration: 1000,
 			easingOpen: "easeOutBounce", //available with jQuery UI
-			prependTo:'#demo'
+			prependTo:'#mobile-menu-container'
 		});
 	});
 	

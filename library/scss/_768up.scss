@@ -95,6 +95,7 @@ HEADER STYLES
 		}
 		
 		#logo {
+			display: block;
 			margin: -20px 0 -70px 40px;
 			
 			a {
@@ -161,12 +162,23 @@ HEADER STYLES
 			display: table;
 			height: 167px;
 			width: 167px;
+			background: url('../images/book-appointment.png');
+			background-size: cover;
+			position: absolute;
 			right: -40px;
 			top: 35%;
 			font-size: 1.2em;
 			line-height: 1.2em;
+			color: $white;
+			text-decoration: none;
+			font-family: $serif;
+			text-align: center;
 			
 			div {
+				display: table-cell; 
+				vertical-align: middle; 
+				padding-bottom: 10px;
+				
 				span {
 					display: inline;
 					padding: 0;
@@ -174,7 +186,7 @@ HEADER STYLES
 			}
 		}
 		
-		#mobile-menu {
+		#mobile-menu-container {
 			display: none;
 		}
 	

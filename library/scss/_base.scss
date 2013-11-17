@@ -176,28 +176,9 @@ HEADER STYLES
 		padding: 5px;
 		background: $white;
 		border: 1px solid $green;
-	
-		#mobile-menu-button {
-			display: block;
-			height: 29px;
-			width: 29px;
-			background: url('../images/mobile-menu.png') no-repeat;
-			background-size: 29px 29px;
-			float: left;
-		}
 		
 		#logo {
-			float: left;
-			font-size: 1.2em;
-			text-transform: uppercase;
-			letter-spacing: 1px;
-			font-family: $serif;
-			margin: 0 10px;
-			
-			a {
-				color: $blue;
-				text-decoration: none;
-			}
+			display: none;
 		}
 		
 		#menu-top-links {
@@ -206,30 +187,6 @@ HEADER STYLES
 		
 		#book {
 			display: none;
-			
-			height: 100px;
-			width: 100px;
-			background: url('../images/book-appointment.png');
-			background-size: cover;
-			position: absolute;
-			right: -10px;
-			top: 50px;
-			color: $white;
-			text-decoration: none;
-			font-family: $serif;
-			font-size: 1.2em;
-			line-height: 1.2em;
-			text-align: center;
-			
-			div {
-				  display: table-cell; 
-				  vertical-align: middle; 
-				  padding-bottom: 10px;
-				  
-				  span {
-					  display: none;
-				  }
-			}
 		}
 	
 	}
@@ -237,29 +194,63 @@ HEADER STYLES
 	#header-image {
 		display: none;
 	}
-	
-	#mobile-menu {
-		display: block;
-	}
-	
-	
 
 }
 
 
 
+/* SLICKNAV JAZZ */
+
+
+/* show & hide */
 .slicknav_menu {
 	display:none;
 }
 
-	/* #menu is the original menu */
-	.js #menu {
-		display:none;
-	}
+/* #menu is the original menu */
+.js #mobile-menu {
+	display:none;
+}
+
+.js .slicknav_menu {
+	display:block;
+}
+
+
+.slicknav_menu  {
 	
-	.js .slicknav_menu {
-		display:block;
+	.slicknav_btn { 
+		display: block;
+		height: 29px;
+		width: 29px;
+		background: url('../images/mobile-menu.png') no-repeat;
+		background-size: 29px 29px;
+		text-decoration: none;
+		
+		.slicknav_menutxt { 
+			display: block;
+			font-size: 1.2em;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-family: $serif;
+			margin: 0 10px 0 35px;
+			color: $blue;
+			text-decoration: none;
+			width: 200px;
+		}	
+		
+		.slicknav_icon {
+			display: none;
+		}
 	}
+		
+}
+
+
+
+
+
+
 
 
 

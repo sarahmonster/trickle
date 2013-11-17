@@ -163,7 +163,6 @@ function bones_scripts_and_styles() {
 		wp_enqueue_script( 'bones-js' );
 		wp_enqueue_script( 'jquery-ui' );
 		wp_enqueue_script( 'slicknav' );
-		wp_enqueue_style( 'slicknav-stylesheet' );
 
 	}
 }

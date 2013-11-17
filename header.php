@@ -47,11 +47,8 @@
 
 				<div id="inner-header" class="wrap clearfix">
 
-					
-					<div id="demo">
-					<ul id="menu">
+					<div id="mobile-menu-container">
 						<?php bones_mobile_nav(); ?>
-					</ul>
 					</div>
 					
 					<p id="logo" class="fourcol first clearfix"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
