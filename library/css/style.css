@@ -1883,13 +1883,13 @@ you can add resource intensive styles.
   /* line 109, ../scss/_768up.scss */
   #header #inner-header #logo {
     display: block;
-    margin: -20px 0 -70px 40px;
+    margin: -50px 0 -70px 40px;
   }
   /* line 113, ../scss/_768up.scss */
   #header #inner-header #logo a {
     float: left;
-    width: 174px;
-    height: 129px;
+    width: 130px;
+    height: 157px;
     background: url("../images/logo.png");
     background-size: cover;
     text-indent: 100%;
