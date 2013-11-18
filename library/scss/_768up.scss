@@ -201,10 +201,9 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin-left: -50px;
+	margin: 1em 0 2em -50px;
 
 	.nav {
-		border-bottom: 1px solid $green;
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;
 		background-size: 300px 199px;
 		@include box-shadow;
@@ -229,7 +228,7 @@ NAVIGATION STYLES
 			/* sub-menus! */
 			ul.sub-menu,
 			ul.children {
-				margin-top: -11px;
+				margin: -11px 0 0 0;
 				padding-top: 11px;
 				border: 1px solid $green;
 				background: lighten($green, 30%);
