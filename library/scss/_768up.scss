@@ -267,14 +267,18 @@ NAVIGATION STYLES
 	
 		} /* end .menu ul li */
 	
-		/* highlight current page */
-		li.current-menu-item,
-		li.current_page_item,
-		li.current-page-ancestor {
-			a {}
-		}  /* end current highlighters */
-	
 	} /* end .nav */
+	
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+		background: $white;
+		
+		a {
+			background: lighten($green, 45%);
+		}
+	}  /* end current highlighters */
 	
 }
 

@@ -338,7 +338,11 @@ NAVIGATION STYLES
 	li.current-menu-item,
 	li.current_page_item,
 	li.current-page-ancestor {
-		a {}
+		
+		a {
+			background: lighten($green, 50%);
+			color: darken($green, 10%);
+		}
 	}  /* end current highlighters */
 
 } /* end .nav */

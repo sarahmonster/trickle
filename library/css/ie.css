@@ -655,6 +655,8 @@ NAVIGATION STYLES
   display: block;
   margin: 1em 0 2em -50px;
   /* end .nav */
+  /* highlight current page */
+  /* end current highlighters */
 }
 /* line 206, ../scss/_768up.scss */
 #sidebar-nav .nav {
@@ -667,8 +669,6 @@ NAVIGATION STYLES
   box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   padding: 3px 3px;
   /* end .menu ul li */
-  /* highlight current page */
-  /* end current highlighters */
 }
 /* line 212, ../scss/_768up.scss */
 #sidebar-nav .nav li {
@@ -721,32 +721,44 @@ NAVIGATION STYLES
 #sidebar-nav .nav li:hover ul {
   display: block;
 }
+/* line 275, ../scss/_768up.scss */
+#sidebar-nav li.current-menu-item,
+#sidebar-nav li.current_page_item,
+#sidebar-nav li.current-page-ancestor {
+  background: white;
+}
+/* line 278, ../scss/_768up.scss */
+#sidebar-nav li.current-menu-item a,
+#sidebar-nav li.current_page_item a,
+#sidebar-nav li.current-page-ancestor a {
+  background: #eef1ea;
+}
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 285, ../scss/_768up.scss */
+/* line 289, ../scss/_768up.scss */
 #sidebar-nav {
   margin-top: 2.2em;
 }
 
-/* line 289, ../scss/_768up.scss */
+/* line 293, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 294, ../scss/_768up.scss */
+/* line 298, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 299, ../scss/_768up.scss */
+/* line 303, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 307, ../scss/_768up.scss */
+/* line 311, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -766,7 +778,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 409, ../scss/_768up.scss */
+/* line 413, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
 }
@@ -779,7 +791,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 426, ../scss/_768up.scss */
+/* line 430, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
