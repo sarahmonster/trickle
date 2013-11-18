@@ -50,6 +50,22 @@ h2 {
 		}
 }
 
+.sixcol h2 {
+		
+		&:before, &:after {
+			width: 60px;
+		}
+		&:before {
+	    	right: 0.5em;
+	    	margin-left: -25%;
+		}
+	
+		&:after {
+	    	left: 0.5em;
+			margin-right: -25%;
+		}
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
