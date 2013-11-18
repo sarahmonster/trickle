@@ -175,8 +175,8 @@ HEADER STYLES
 			display: table;
 			height: 167px;
 			width: 167px;
-			background: url('../images/book-appointment.png');
-			background-size: cover;
+			background: url('../images/book-appointment.png') top left;
+			background-size: 334px 167px;
 			position: absolute;
 			right: -40px;
 			top: 35%;
@@ -187,16 +187,37 @@ HEADER STYLES
 			font-family: $serif;
 			text-align: center;
 			
+			&:after {
+				content: "Reserve Your Spot Now";
+				padding: 60px 20px;
+				position: absolute;
+				top: 0; 
+				left: 0; 
+				bottom: 0; 
+				right: 0;
+				background: url('../images/book-appointment.png') top right;
+				background-size: 334px 167px;
+				opacity: 0;
+				@include transition(opacity 1.5s);
+				z-index: 1;
+			}
+			
+			&:hover:after {
+				opacity: 1;
+			}
+			
 			div {
 				display: table-cell; 
 				vertical-align: middle; 
 				padding-bottom: 10px;
+				z-index: 40000;
 				
 				span {
 					display: inline;
 					padding: 0;
 				}
 			}
+		
 		}
 		
 		#mobile-menu-container {
