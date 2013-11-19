@@ -769,32 +769,39 @@ NAVIGATION STYLES
 #sidebar-nav li.current-page-ancestor a {
   background: #eef1ea;
 }
+/* line 316, ../scss/_768up.scss */
+#sidebar-nav li.current-menu-item ul.sub-menu,
+#sidebar-nav li.current_page_item ul.sub-menu,
+#sidebar-nav li.current-page-ancestor ul.sub-menu {
+  background: #fbfbfa;
+  display: block;
+}
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 323, ../scss/_768up.scss */
+/* line 328, ../scss/_768up.scss */
 #sidebar-nav {
   margin-top: 2.2em;
 }
 
-/* line 327, ../scss/_768up.scss */
+/* line 332, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 332, ../scss/_768up.scss */
+/* line 337, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 337, ../scss/_768up.scss */
+/* line 342, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 345, ../scss/_768up.scss */
+/* line 350, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -814,7 +821,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 447, ../scss/_768up.scss */
+/* line 452, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
   margin-bottom: 4em;
@@ -828,7 +835,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 465, ../scss/_768up.scss */
+/* line 470, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

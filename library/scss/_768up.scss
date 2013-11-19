@@ -312,6 +312,11 @@ NAVIGATION STYLES
 		a {
 			background: lighten($green, 45%);
 		}
+		
+		ul.sub-menu {
+			background: lighten($green, 50%);
+			display: block;
+		}
 	}  /* end current highlighters */
 	
 }
