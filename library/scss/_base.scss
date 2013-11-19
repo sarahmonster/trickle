@@ -18,7 +18,7 @@ GENERAL STYLES
 body {
 	font-family: $sans-serif;
 	font-size: 100%;
-	line-height: 1.5;
+	line-height: 1.75;
 	color: #565656;
 }
 
@@ -426,14 +426,21 @@ POSTS & CONTENT STYLES
 		/* entry content */
 		.entry-content {
 
-			p {}
+			p {
+				margin: 2em 0;
+			}
 
 
 			ul, ol, table, dl {}
 
 			ul, ol {
+				list-style-type: circle;
+				list-style-position: inside;
 
-				li {}
+				li {
+					margin: .5em 0;
+					line-height: 1.5em;
+				}
 
 			}
 
