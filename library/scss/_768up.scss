@@ -455,6 +455,55 @@ POSTS & CONTENT STYLES
 }
 
 
+/******************************************************************
+FORM STYLES
+******************************************************************/
+
+form {
+	
+	div {
+		padding-top: 20px;
+	}
+	
+	label {
+		width: 20%;
+		padding-top: 10px;
+		float: left;
+		display: block;
+		text-align: right;
+	}
+	
+	.wpcf7-list-item {
+		margin-left: 5%;
+		float: left;
+		width: auto;
+	}
+
+	
+	input[type="checkbox"] + label, label span {
+		 float: none;
+		 display: inline-block;
+	 }
+
+	input[type=text],
+	input[type=email],
+	input[type=url],
+	input[type=tel],
+	textarea {
+		margin-left: 5%;
+		float: left;
+		width: 75%;
+	}
+	
+	textarea {
+		clear: none;
+	}
+
+
+}
+
+
+
 
 /*********************
 FOOTER STYLES

@@ -211,38 +211,6 @@ BUTTONS
   background-image: linear-gradient(to bottom, #718657, #7e9561);
 }
 
-/* line 240, ../scss/_mixins.scss */
-.blue-button, .blue-button:visited {
-  border-color: #4d6776;
-  text-shadow: 0 1px 1px #4d6776;
-  background-color: #577586;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#618295), to(#577586));
-  background-image: -webkit-linear-gradient(top, #618295, #577586);
-  background-image: -moz-linear-gradient(top, #618295, #577586);
-  background-image: -o-linear-gradient(top, #618295, #577586);
-  background-image: linear-gradient(to bottom, #618295, #577586);
-  box-shadow: inset 0 0 3px #91a9b7;
-}
-/* line 246, ../scss/_mixins.scss */
-.blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
-  border-color: #435a67;
-  background-color: #4d6776;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#597789), to(#4d6776));
-  background-image: -webkit-linear-gradient(top, #597789, #4d6776);
-  background-image: -moz-linear-gradient(top, #597789, #4d6776);
-  background-image: -o-linear-gradient(top, #597789, #4d6776);
-  background-image: linear-gradient(to bottom, #597789, #4d6776);
-}
-/* line 250, ../scss/_mixins.scss */
-.blue-button:active, .blue-button:visited:active {
-  background-color: #618295;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#577586), to(#618295));
-  background-image: -webkit-linear-gradient(top, #577586, #618295);
-  background-image: -moz-linear-gradient(top, #577586, #618295);
-  background-image: -o-linear-gradient(top, #577586, #618295);
-  background-image: linear-gradient(to bottom, #577586, #618295);
-}
-
 /******************************************************************
 Site Name:
 Author:
@@ -828,6 +796,47 @@ POSTS & CONTENT STYLES
   margin-bottom: 4em;
 }
 
+/******************************************************************
+FORM STYLES
+******************************************************************/
+/* line 464, ../scss/_768up.scss */
+form div {
+  padding-top: 20px;
+}
+/* line 468, ../scss/_768up.scss */
+form label {
+  width: 20%;
+  padding-top: 10px;
+  float: left;
+  display: block;
+  text-align: right;
+}
+/* line 476, ../scss/_768up.scss */
+form .wpcf7-list-item {
+  margin-left: 5%;
+  float: left;
+  width: auto;
+}
+/* line 483, ../scss/_768up.scss */
+form input[type="checkbox"] + label, form label span {
+  float: none;
+  display: inline-block;
+}
+/* line 492, ../scss/_768up.scss */
+form input[type=text],
+form input[type=email],
+form input[type=url],
+form input[type=tel],
+form textarea {
+  margin-left: 5%;
+  float: left;
+  width: 75%;
+}
+/* line 498, ../scss/_768up.scss */
+form textarea {
+  clear: none;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -836,7 +845,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 470, ../scss/_768up.scss */
+/* line 519, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
