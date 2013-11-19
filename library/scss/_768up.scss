@@ -252,7 +252,7 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin: 1em 0 2em -50px;
+	margin: -18em 0 2em -50px;
 
 	.nav {
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;
@@ -341,10 +341,6 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-
-#sidebar-nav {
-	margin-top: 2.2em;
-}
 
 	.widgettitle {
 		border-bottom: 2px solid #444;
