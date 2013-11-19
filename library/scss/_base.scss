@@ -153,9 +153,33 @@ h3, .h3 {
 }
 
 h4, .h4 {
-	font-size: 1.1em;
-	font-weight: 700;
+	font-size: .9em;
+	font-family: $sans-serif;
+	font-weight: bold;
+	color: $purple;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: .75em 0 .25em;
+	text-align: left;
+	
+	&.pricelist {
+		background: url('../images/middot.png') center repeat-x;
+		background-size: 8px 3px;
+		color: lighten($purple, 20%);
+	
+		span {
+			background: $white;	
+			padding: 0 10px 1px 0;	
+			
+			&.price {
+				float: right;
+				padding: 0 0 1px 10px;
+			}
+		}
+		
+	}
 }
+
 
 h5, .h5 {
 	font-size: 0.846em;
