@@ -79,8 +79,10 @@ TYPOGRAPHY
 
 @import url('../fonts/caecilia/stylesheet.css');
 @import url('http://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic');
 
-$sans-serif:        "Caecilia", Helvetica, Arial, sans-serif;
+$slab-serif:        "Caecilia", Helvetica, Arial, sans-serif;
+$sans-serif:        "Lato", Helvetica, Arial, sans-serif;
 $serif:             "Bree Serif", Cambria, Times New Roman, Times, serif;
 
 /*

@@ -17,7 +17,8 @@ GENERAL STYLES
 
 body {
 	font-family: $sans-serif;
-	font-size: 100%;
+	font-size: 105%;
+	font-weight: 200;
 	line-height: 1.75;
 	color: #565656;
 }
@@ -144,6 +145,8 @@ h2, .h2 {
 }
 
 h3, .h3 {
+	font-family: $slab-serif;
+	font-weight: bold;
 	font-size: 1em;
 	color: lighten($green, 20%);
 	text-transform: uppercase;
@@ -310,6 +313,7 @@ NAVIGATION STYLES
 
 #sidebar-nav .nav, .slicknav_nav {
 	margin: 1em 0 0 0;
+	font-family: $slab-serif;
 
 	li {
 		padding: 3px;
@@ -926,6 +930,7 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin: 5px 0;
+	font-family: $slab-serif;
 	
 	.copyright {
 		color: lighten($black, 40%);
