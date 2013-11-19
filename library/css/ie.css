@@ -817,6 +817,7 @@ POSTS & CONTENT STYLES
 /* line 447, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
+  margin-bottom: 4em;
 }
 
 /*********************
@@ -827,7 +828,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 464, ../scss/_768up.scss */
+/* line 465, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
