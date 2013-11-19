@@ -1094,16 +1094,25 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	line-height: 1.5em;
+	font-size: .75em;
 	margin: 5px 0;
 	font-family: $slab-serif;
+
 	
 	.copyright {
 		color: lighten($black, 40%);
 		text-align: center;
-		font-size: .85em;
 		text-transform: uppercase;
 		font-weight: bolder;
 		letter-spacing: 1px;
+		border-top: 1px solid lighten($blue, 40%);
+		padding: 1em 20px 0;
+		margin-top: 3em;
+		
+		span {
+			display: none;
+		}
 	}
 	
 	a {

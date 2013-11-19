@@ -6,7 +6,7 @@
 							<?php bones_footer_links(); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Website designed &amp; developed by <a href="http://triggersandsparks.com">Triggers &amp; Sparks</a>.</p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Website <span>designed &amp; developed</span> by <a href="http://triggersandsparks.com">Triggers &amp; Sparks</a>.</p>
 
 				</div> <?php // end #inner-footer ?>
 

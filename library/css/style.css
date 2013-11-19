@@ -1754,19 +1754,27 @@ FOOTER STYLES
 /* line 1095, ../scss/_base.scss */
 .footer {
   clear: both;
+  line-height: 1.5em;
+  font-size: .75em;
   margin: 5px 0;
   font-family: "Caecilia", Helvetica, Arial, sans-serif;
 }
-/* line 1100, ../scss/_base.scss */
+/* line 1103, ../scss/_base.scss */
 .footer .copyright {
   color: #aaadad;
   text-align: center;
-  font-size: .85em;
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 1px;
+  border-top: 1px solid #dbe3e7;
+  padding: 1em 20px 0;
+  margin-top: 3em;
 }
-/* line 1109, ../scss/_base.scss */
+/* line 1113, ../scss/_base.scss */
+.footer .copyright span {
+  display: none;
+}
+/* line 1118, ../scss/_base.scss */
 .footer a {
   text-decoration: none;
   color: #b0bf9d;
@@ -2436,21 +2444,20 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /*
-  you'll probably need to do quite a bit
-  of overriding here if you styled them for
-  mobile. Make sure to double check these!
-  */
-  /* line 536, ../scss/_768up.scss */
-  .footer-links ul li {
-    /*
-    be careful with the depth of your menus.
-    it's very rare to have multi-depth menus in
-    the footer.
-    */
+  /* line 529, ../scss/_768up.scss */
+  .footer {
+    font-size: .85em;
   }
-
-  /* end .footer-links */
+  /* line 533, ../scss/_768up.scss */
+  .footer .copyright {
+    border-top: none;
+    padding: 0;
+    margin-top: 1em;
+  }
+  /* line 538, ../scss/_768up.scss */
+  .footer .copyright span {
+    display: inline;
+  }
 }
 /*
 DESKTOP
