@@ -110,6 +110,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	font-family: $serif;
 	text-rendering: optimizelegibility;
 	font-weight: normal;
+	line-height: 1.2em;
 
 	a {
 		text-decoration: none;
@@ -117,11 +118,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.333em;
 	color: lighten($purple, 10%);
 	text-align: center;
-	margin: 10px 0 20px 0;
+	margin: 0 0 1em 0;
 	
 	&::after {
 		display: block;
@@ -136,33 +137,46 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-size: 1.15em;
+	font-size: 1.1em;
 	color: lighten($blue, 20%);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
 	font-weight: normal;
+	margin: 6em 0 .25em;
+}
+
+h1 + h2, header + section h2 {
+	margin-top: 3em;
 }
 
 h3, .h3 {
 	font-family: $slab-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .95em;
 	color: lighten($green, 20%);
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin: 2em 0 1em;
+	margin: 4em 0 .5em;
 	text-align: center;
 }
 
+h2 + h3 {
+	margin-top: 0;
+}
+
+.entry-content h3 + p {
+	margin-top: .5em;
+}
+
 h4, .h4 {
-	font-size: .9em;
+	font-size: .85em;
 	font-family: $sans-serif;
 	font-weight: bold;
 	color: $purple;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin: .75em 0 .25em;
+	margin: .5em 0 .25em;
 	text-align: left;
 	
 	&.pricelist {
