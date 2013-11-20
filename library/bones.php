@@ -319,6 +319,60 @@ function bones_footer_links_fallback() {
 	/* you can put a default here if you like */
 }
 
+
+/*********************
+CUSTOM POST TYPE FOR PROMOTIONS
+*********************/
+
+// Register Custom Post Type
+function custom_post_type() {
+
+	$labels = array(
+		'name'                => _x( 'Promotions', 'Post Type General Name', 'text_domain' ),
+		'singular_name'       => _x( 'Promotion', 'Post Type Singular Name', 'text_domain' ),
+		'menu_name'           => __( 'Promotions', 'text_domain' ),
+		'parent_item_colon'   => __( 'Parent Promotion:', 'text_domain' ),
+		'all_items'           => __( 'All Promotions', 'text_domain' ),
+		'view_item'           => __( 'View Promotion', 'text_domain' ),
+		'add_new_item'        => __( 'Add New Promotion', 'text_domain' ),
+		'add_new'             => __( 'New Promotion', 'text_domain' ),
+		'edit_item'           => __( 'Edit Promotion', 'text_domain' ),
+		'update_item'         => __( 'Update Promotion', 'text_domain' ),
+		'search_items'        => __( 'Search promotions', 'text_domain' ),
+		'not_found'           => __( 'No promotions found', 'text_domain' ),
+		'not_found_in_trash'  => __( 'No promotions found in Trash', 'text_domain' ),
+	);
+	$args = array(
+		'label'               => __( 'promotions', 'text_domain' ),
+		'description'         => __( 'Promotions and specials', 'text_domain' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+		'taxonomies'          => array( 'category', 'post_tag' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 20,
+		'menu_icon'           => get_template_directory_uri() . '/library/images/star.png',
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'promotions', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'custom_post_type', 0 );
+
+
+
+
+
 /*********************
 RELATED POSTS FUNCTION
 *********************/
