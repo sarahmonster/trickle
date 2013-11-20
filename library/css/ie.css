@@ -167,9 +167,9 @@ BUTTONS
 /* line 208, ../scss/_mixins.scss */
 .button, .button:visited {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  border: 1px solid #5c6d47;
-  border-top-color: #6c7f53;
-  border-left-color: #6c7f53;
+  border: 1px solid #6b8e43;
+  border-top-color: #7ba34c;
+  border-left-color: #7ba34c;
   padding: 4px 12px;
   color: white;
   display: inline-block;
@@ -181,34 +181,34 @@ BUTTONS
   margin-bottom: 20px;
   line-height: 21px;
   border-radius: 4px;
-  background-color: #718657;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7e9561), to(#718657));
-  background-image: -webkit-linear-gradient(top, #7e9561, #718657);
-  background-image: -moz-linear-gradient(top, #7e9561, #718657);
-  background-image: -o-linear-gradient(top, #7e9561, #718657);
-  background-image: linear-gradient(to bottom, #7e9561, #718657);
+  background-color: #80aa50;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8db45f), to(#80aa50));
+  background-image: -webkit-linear-gradient(top, #8db45f, #80aa50);
+  background-image: -moz-linear-gradient(top, #8db45f, #80aa50);
+  background-image: -o-linear-gradient(top, #8db45f, #80aa50);
+  background-image: linear-gradient(to bottom, #8db45f, #80aa50);
 }
 /* line 227, ../scss/_mixins.scss */
 .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
   color: white;
-  border: 1px solid #5c6d47;
-  border-top-color: #4a5739;
-  border-left-color: #4a5739;
-  background-color: #64764d;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#718657), to(#64764d));
-  background-image: -webkit-linear-gradient(top, #718657, #64764d);
-  background-image: -moz-linear-gradient(top, #718657, #64764d);
-  background-image: -o-linear-gradient(top, #718657, #64764d);
-  background-image: linear-gradient(to bottom, #718657, #64764d);
+  border: 1px solid #6b8e43;
+  border-top-color: #597637;
+  border-left-color: #597637;
+  background-color: #739947;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#80aa50), to(#739947));
+  background-image: -webkit-linear-gradient(top, #80aa50, #739947);
+  background-image: -moz-linear-gradient(top, #80aa50, #739947);
+  background-image: -o-linear-gradient(top, #80aa50, #739947);
+  background-image: linear-gradient(to bottom, #80aa50, #739947);
 }
 /* line 235, ../scss/_mixins.scss */
 .button:active, .button:visited:active {
-  background-color: #7e9561;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#718657), to(#7e9561));
-  background-image: -webkit-linear-gradient(top, #718657, #7e9561);
-  background-image: -moz-linear-gradient(top, #718657, #7e9561);
-  background-image: -o-linear-gradient(top, #718657, #7e9561);
-  background-image: linear-gradient(to bottom, #718657, #7e9561);
+  background-color: #8db45f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#80aa50), to(#8db45f));
+  background-image: -webkit-linear-gradient(top, #80aa50, #8db45f);
+  background-image: -moz-linear-gradient(top, #80aa50, #8db45f);
+  background-image: -o-linear-gradient(top, #80aa50, #8db45f);
+  background-image: linear-gradient(to bottom, #80aa50, #8db45f);
 }
 
 /******************************************************************
@@ -690,7 +690,7 @@ NAVIGATION STYLES
 }
 /* line 261, ../scss/_768up.scss */
 #sidebar-nav .nav {
-  background: #fbfbfa url("../images/diagonal.png") top center repeat;
+  background: white url("../images/diagonal.png") top center repeat;
   background-size: 300px 199px;
   -webkit-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   -ms-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
@@ -702,7 +702,7 @@ NAVIGATION STYLES
 }
 /* line 267, ../scss/_768up.scss */
 #sidebar-nav .nav li {
-  background: #fbfbfa;
+  background: white;
   margin: 10px;
   /* sub-menus! */
   /* showing sub-menus */
@@ -713,8 +713,8 @@ NAVIGATION STYLES
 }
 /* line 276, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
-  background-color: #b0bf9d;
-  border: 1px solid #7e9561;
+  background-color: #bed5a4;
+  border: 1px solid #8db45f;
   color: white;
 }
 /* line 285, ../scss/_768up.scss */
@@ -722,8 +722,8 @@ NAVIGATION STYLES
 #sidebar-nav .nav li ul.children {
   margin: -11px 0 0 0;
   padding-top: 11px;
-  border: 1px solid #7e9561;
-  background: #c9d3bc;
+  border: 1px solid #8db45f;
+  background: #d7e5c7;
   border-top: 0;
   position: relative;
   display: none;
@@ -739,12 +739,12 @@ NAVIGATION STYLES
 #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
 #sidebar-nav .nav li ul.children li a:hover,
 #sidebar-nav .nav li ul.children li a:focus {
-  background: #97ab7e;
+  background: #a6c482;
 }
 /* line 312, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover > a {
-  background: #c9d3bc;
-  border: 1px solid #7e9561;
+  background: #d7e5c7;
+  border: 1px solid #8db45f;
   color: white;
 }
 /* line 318, ../scss/_768up.scss */
@@ -761,13 +761,13 @@ NAVIGATION STYLES
 #sidebar-nav li.current-menu-item a,
 #sidebar-nav li.current_page_item a,
 #sidebar-nav li.current-page-ancestor a {
-  background: #eef1ea;
+  background: #fcfdfb;
 }
 /* line 337, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item ul.sub-menu,
 #sidebar-nav li.current_page_item ul.sub-menu,
 #sidebar-nav li.current-page-ancestor ul.sub-menu {
-  background: #fbfbfa;
+  background: white;
   display: block;
 }
 
