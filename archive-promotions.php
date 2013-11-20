@@ -3,34 +3,28 @@
 			<div id="content">
 
 				<div id="inner-content" class="wrap clearfix">
+				
+						<?php get_sidebar(); ?>
 
-						<div id="main" class="eightcol first clearfix" role="main">
-
-						<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
+						<div id="main" class="sevencol onepush clearfix" role="main">
+						
+						
+							<h1 class="archive-title"><?php post_type_archive_title(); ?></h1>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
+							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix entry-content' ); ?> role="article">
+									 
+									 <div class="fourcol first clearfix">
+									 <?php the_post_thumbnail('full'); ?> 
+									 </div>
+									 
+									 <div class="eightcol last clearfix">
+										 <h3><?php the_title(); ?></h3>
+										 <?php the_content(); ?>
+									</div>
 
-								<header class="article-header">
-
-									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline vcard"><?php
-										printf( __( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>.', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( __( 'F jS, Y', 'bonestheme' ) ), bones_get_the_author_posts_link());
-									?></p>
-
-								</header> <?php // end article header ?>
-
-								<section class="entry-content clearfix">
-
-									<?php the_excerpt(); ?>
-
-								</section> <?php // end article section ?>
-
-								<footer class="article-footer">
-
-								</footer> <?php // end article footer ?>
-
+							
 							</article> <?php // end article ?>
 
 							<?php endwhile; ?>

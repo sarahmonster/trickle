@@ -500,6 +500,8 @@ POSTS & CONTENT STYLES
 				margin: 0 0 1.5em 0;
 				max-width: 100%;
 				height: auto;
+				border: 5px solid $white;
+				@include box-shadow;
 			}
 
 			/*
