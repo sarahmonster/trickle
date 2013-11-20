@@ -486,7 +486,7 @@ h2:after {
 
 /* line 70, ../scss/_768up.scss */
 .eightcol h3 {
-  margin-top: 1em;
+  margin-top: 0;
 }
 
 /*********************

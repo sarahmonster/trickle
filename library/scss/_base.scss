@@ -144,6 +144,10 @@ h2, .h2 {
 	text-align: center;
 	font-weight: normal;
 	margin: 6em 0 .25em;
+	
+	a {
+		color: lighten($blue, 20%);
+	}
 }
 
 h1 + h2, header + section h2 {
