@@ -2147,14 +2147,14 @@ you can add resource intensive styles.
   }
   /* line 113, ../scss/_768up.scss */
   #header #inner-header {
-    padding: 0 50px 15px;
+    padding: 0 20px 15px;
     border: none;
     position: relative;
   }
   /* line 118, ../scss/_768up.scss */
   #header #inner-header #logo {
     display: block;
-    margin: -50px 0 -70px 0px;
+    margin: -50px 0 -70px 20px;
   }
   /* line 122, ../scss/_768up.scss */
   #header #inner-header #logo a {
