@@ -67,18 +67,17 @@ jQuery(document).ready(function($) {
 	
 	
 	// add all your scripts here
-	
-	$(function(){
-		$('#mobile-menu').slicknav({
-			label: 'Cascades Day Spa',
-			duration: 1000,
-			easingOpen: "easeOutBounce", //available with jQuery UI
-			prependTo:'#mobile-menu-container'
-		});
+	$('#mobile-menu').slicknav({
+		label: 'Cascades Day Spa',
+		duration: 1000,
+		easingOpen: "easeOutBounce", //available with jQuery UI
+		prependTo:'#mobile-menu-container'
 	});
 	
-
-	
+	$('#menu-main-menu .menu-item-has-children a').on('click', function(event) {
+		event.preventDefault();
+		$(this).parent().toggleClass('active');
+	});
  
 }); /* end of as page load scripts */
 
