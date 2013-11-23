@@ -2356,13 +2356,13 @@ you can add resource intensive styles.
     background: #a6c482;
   }
   /* line 308, ../scss/_768up.scss */
-  #sidebar-nav .nav li:hover > a {
+  #sidebar-nav .nav li.active > a {
     background: #d7e5c7;
     border: 1px solid #8db45f;
     color: white;
   }
   /* line 314, ../scss/_768up.scss */
-  #sidebar-nav .nav li:hover ul {
+  #sidebar-nav .nav li.active ul {
     display: block;
   }
   /* line 326, ../scss/_768up.scss */
