@@ -304,7 +304,7 @@ NAVIGATION STYLES
 			}
 	
 			/* showing sub-menus */
-			&:hover {
+			.active {
 				& > a {
 					background: lighten($green, 30%);
 					border: 1px solid $green;
