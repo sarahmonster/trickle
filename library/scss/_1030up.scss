@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name: 
-Author: 
+Site Name: Cascades Day Spa
+Author: sarah semark	
 
 Stylesheet: Desktop Stylsheet
 
@@ -8,3 +8,35 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+
+
+/*********************
+HEADER STYLES
+*********************/
+
+#header {
+	
+	#inner-header {
+		padding: 0 50px 15px;
+		
+		#logo {
+			margin: -50px 0 -70px 40px;
+			
+			a {
+				width: 130px;
+				height: 157px;
+			}
+		}
+		
+		#menu-top-links {
+			font-size: .8em;
+			margin: 10px 0 5px 0;
+			
+			li {
+				margin: 0px 20px 0 0;
+			}
+		}
+
+	}
+		
+}

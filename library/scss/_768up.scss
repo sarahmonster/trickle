@@ -117,12 +117,12 @@ HEADER STYLES
 		
 		#logo {
 			display: block;
-			margin: -50px 0 -70px 40px;
+			margin: -50px 0 -70px 0px;
 			
 			a {
 				float: left;
-				width: 130px;
-				height: 157px;
+				width: 100px;
+				height: 121px;
 				background: url('../images/logo.png');
 				background-size: cover;
 				@include image_replacement;
@@ -135,13 +135,14 @@ HEADER STYLES
 			font-weight: bolder;
 			text-transform: uppercase;
 			letter-spacing: 1px;
-			font-size: .8em;
+			font-size: .7em;
+			min-height: 16px;
 			float: right;
-			margin: 10px 0 5px 0;
+			margin: 5px 0 5px 0;
 			
 			li {
 				display: inline-block;
-				margin: 0px 20px 0 0;
+				margin: 0px 10px 0 0;
 				
 				&:last-of-type {
 					margin-right: 0px;
@@ -149,9 +150,10 @@ HEADER STYLES
 				
 				a {
 					background: none;
-					display: inline;
+					display: inline-block;
 					border: none;
 					height: 16px;
+					line-height: 16px;
 					background: url('../images/top-links.png') 0 0 no-repeat;
 					background-size: 19px 128px;
 					padding: 0 5px 0 25px;
@@ -260,7 +262,7 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin: -18em 0 2em -50px;
+	margin: 2.2em 0 2em -50px;
 
 	.nav {
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;

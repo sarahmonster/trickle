@@ -542,13 +542,13 @@ HEADER STYLES
 /* line 118, ../scss/_768up.scss */
 #header #inner-header #logo {
   display: block;
-  margin: -50px 0 -70px 40px;
+  margin: -50px 0 -70px 0px;
 }
 /* line 122, ../scss/_768up.scss */
 #header #inner-header #logo a {
   float: left;
-  width: 130px;
-  height: 157px;
+  width: 100px;
+  height: 121px;
   background: url("../images/logo.png");
   background-size: cover;
   text-indent: 100%;
@@ -562,59 +562,61 @@ HEADER STYLES
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: .8em;
+  font-size: .7em;
+  min-height: 16px;
   float: right;
-  margin: 10px 0 5px 0;
+  margin: 5px 0 5px 0;
 }
-/* line 142, ../scss/_768up.scss */
+/* line 143, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li {
   display: inline-block;
-  margin: 0px 20px 0 0;
+  margin: 0px 10px 0 0;
 }
-/* line 146, ../scss/_768up.scss */
+/* line 147, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:last-of-type {
   margin-right: 0px;
 }
-/* line 150, ../scss/_768up.scss */
+/* line 151, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li a {
   background: none;
-  display: inline;
+  display: inline-block;
   border: none;
   height: 16px;
+  line-height: 16px;
   background: url("../images/top-links.png") 0 0 no-repeat;
   background-size: 19px 128px;
   padding: 0 5px 0 25px;
   text-decoration: none;
 }
-/* line 160, ../scss/_768up.scss */
+/* line 162, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li a:hover, #header #inner-header #menu-top-links li a:focus {
   background-position: 0px -16px;
 }
-/* line 165, ../scss/_768up.scss */
+/* line 167, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(2) a {
   background-position: 0px -32px;
 }
-/* line 168, ../scss/_768up.scss */
+/* line 170, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(2) a:hover, #header #inner-header #menu-top-links li:nth-of-type(2) a:focus {
   background-position: 0px -48px;
 }
-/* line 173, ../scss/_768up.scss */
+/* line 175, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(3) a {
   background-position: 0px -64px;
 }
-/* line 176, ../scss/_768up.scss */
+/* line 178, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(3) a:hover, #header #inner-header #menu-top-links li:nth-of-type(3) a:focus {
   background-position: 0px -80px;
 }
-/* line 181, ../scss/_768up.scss */
+/* line 183, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(4) a {
   background-position: 0px -96px;
 }
-/* line 184, ../scss/_768up.scss */
+/* line 186, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(4) a:hover, #header #inner-header #menu-top-links li:nth-of-type(4) a:focus {
   background-position: 0px -112px;
 }
-/* line 191, ../scss/_768up.scss */
+/* line 193, ../scss/_768up.scss */
 #header #inner-header #header-image {
   display: block;
   max-width: 100%;
@@ -625,7 +627,7 @@ HEADER STYLES
   -o-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
 }
-/* line 199, ../scss/_768up.scss */
+/* line 201, ../scss/_768up.scss */
 #header #inner-header #book {
   display: table;
   height: 167px;
@@ -642,7 +644,7 @@ HEADER STYLES
   font-family: "Bree Serif", Cambria, Times New Roman, Times, serif;
   text-align: center;
 }
-/* line 215, ../scss/_768up.scss */
+/* line 217, ../scss/_768up.scss */
 #header #inner-header #book:after {
   content: "Reserve Your Spot Now";
   padding: 60px 20px;
@@ -661,23 +663,23 @@ HEADER STYLES
   transition: opacity 1.5s;
   z-index: 1;
 }
-/* line 230, ../scss/_768up.scss */
+/* line 232, ../scss/_768up.scss */
 #header #inner-header #book:hover:after {
   opacity: 1;
 }
-/* line 234, ../scss/_768up.scss */
+/* line 236, ../scss/_768up.scss */
 #header #inner-header #book div {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 10px;
   z-index: 40000;
 }
-/* line 240, ../scss/_768up.scss */
+/* line 242, ../scss/_768up.scss */
 #header #inner-header #book div span {
   display: inline;
   padding: 0;
 }
-/* line 248, ../scss/_768up.scss */
+/* line 250, ../scss/_768up.scss */
 #header #inner-header #mobile-menu-container {
   display: none;
 }
@@ -685,15 +687,15 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 261, ../scss/_768up.scss */
+/* line 263, ../scss/_768up.scss */
 #sidebar-nav {
   display: block;
-  margin: -18em 0 2em -50px;
+  margin: 2.2em 0 2em -50px;
   /* end .nav */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 265, ../scss/_768up.scss */
+/* line 267, ../scss/_768up.scss */
 #sidebar-nav .nav {
   background: white url("../images/diagonal.png") top center repeat;
   background-size: 300px 199px;
@@ -705,24 +707,24 @@ NAVIGATION STYLES
   padding: 3px 3px;
   /* end .menu ul li */
 }
-/* line 271, ../scss/_768up.scss */
+/* line 273, ../scss/_768up.scss */
 #sidebar-nav .nav li {
   background: white;
   margin: 10px;
   /* sub-menus! */
   /* showing sub-menus */
 }
-/* line 275, ../scss/_768up.scss */
+/* line 277, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover, #sidebar-nav .nav li:focus {
   background-color: white;
 }
-/* line 280, ../scss/_768up.scss */
+/* line 282, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
   background-color: #bed5a4;
   border: 1px solid #8db45f;
   color: white;
 }
-/* line 289, ../scss/_768up.scss */
+/* line 291, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu,
 #sidebar-nav .nav li ul.children {
   margin: -11px 0 0 0;
@@ -734,41 +736,41 @@ NAVIGATION STYLES
   display: none;
   z-index: 8999;
 }
-/* line 299, ../scss/_768up.scss */
+/* line 301, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li,
 #sidebar-nav .nav li ul.children li {
   padding: 3px;
   margin: 10px;
 }
-/* line 305, ../scss/_768up.scss */
+/* line 307, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
 #sidebar-nav .nav li ul.children li a:hover,
 #sidebar-nav .nav li ul.children li a:focus {
   background: #a6c482;
 }
-/* line 316, ../scss/_768up.scss */
+/* line 318, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover > a {
   background: #d7e5c7;
   border: 1px solid #8db45f;
   color: white;
 }
-/* line 322, ../scss/_768up.scss */
+/* line 324, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover ul {
   display: block;
 }
-/* line 334, ../scss/_768up.scss */
+/* line 336, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item,
 #sidebar-nav li.current_page_item,
 #sidebar-nav li.current-page-ancestor {
   background: white;
 }
-/* line 337, ../scss/_768up.scss */
+/* line 339, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item a,
 #sidebar-nav li.current_page_item a,
 #sidebar-nav li.current-page-ancestor a {
   background: #fcfdfb;
 }
-/* line 341, ../scss/_768up.scss */
+/* line 343, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item ul.sub-menu,
 #sidebar-nav li.current_page_item ul.sub-menu,
 #sidebar-nav li.current-page-ancestor ul.sub-menu {
@@ -779,23 +781,23 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 353, ../scss/_768up.scss */
+/* line 355, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 358, ../scss/_768up.scss */
+/* line 360, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 363, ../scss/_768up.scss */
+/* line 365, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 371, ../scss/_768up.scss */
+/* line 373, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -815,7 +817,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 473, ../scss/_768up.scss */
+/* line 475, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
   margin-bottom: 4em;
@@ -824,11 +826,11 @@ POSTS & CONTENT STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 485, ../scss/_768up.scss */
+/* line 487, ../scss/_768up.scss */
 form div {
   padding-top: 20px;
 }
-/* line 489, ../scss/_768up.scss */
+/* line 491, ../scss/_768up.scss */
 form label {
   width: 20%;
   padding-top: 10px;
@@ -836,18 +838,18 @@ form label {
   display: block;
   text-align: right;
 }
-/* line 497, ../scss/_768up.scss */
+/* line 499, ../scss/_768up.scss */
 form .wpcf7-list-item {
   margin-left: 5%;
   float: left;
   width: auto;
 }
-/* line 504, ../scss/_768up.scss */
+/* line 506, ../scss/_768up.scss */
 form input[type="checkbox"] + label, form label span {
   float: none;
   display: inline-block;
 }
-/* line 513, ../scss/_768up.scss */
+/* line 515, ../scss/_768up.scss */
 form input[type=text],
 form input[type=email],
 form input[type=url],
@@ -857,7 +859,7 @@ form textarea {
   float: left;
   width: 75%;
 }
-/* line 519, ../scss/_768up.scss */
+/* line 521, ../scss/_768up.scss */
 form textarea {
   clear: none;
 }
@@ -865,24 +867,24 @@ form textarea {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 533, ../scss/_768up.scss */
+/* line 535, ../scss/_768up.scss */
 .footer {
   font-size: .85em;
 }
-/* line 537, ../scss/_768up.scss */
+/* line 539, ../scss/_768up.scss */
 .footer .copyright {
   border-top: none;
   padding: 0;
   margin-top: 1em;
 }
-/* line 542, ../scss/_768up.scss */
+/* line 544, ../scss/_768up.scss */
 .footer .copyright span {
   display: inline;
 }
 
 /******************************************************************
-Site Name: 
-Author: 
+Site Name: Cascades Day Spa
+Author: sarah semark	
 
 Stylesheet: Desktop Stylsheet
 
@@ -890,6 +892,32 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+/*********************
+HEADER STYLES
+*********************/
+/* line 19, ../scss/_1030up.scss */
+#header #inner-header {
+  padding: 0 50px 15px;
+}
+/* line 22, ../scss/_1030up.scss */
+#header #inner-header #logo {
+  margin: -50px 0 -70px 40px;
+}
+/* line 25, ../scss/_1030up.scss */
+#header #inner-header #logo a {
+  width: 130px;
+  height: 157px;
+}
+/* line 31, ../scss/_1030up.scss */
+#header #inner-header #menu-top-links {
+  font-size: .8em;
+  margin: 10px 0 5px 0;
+}
+/* line 35, ../scss/_1030up.scss */
+#header #inner-header #menu-top-links li {
+  margin: 0px 20px 0 0;
+}
+
 /* 
 you can call the larger styles if you want, but there's really no need 
 */
