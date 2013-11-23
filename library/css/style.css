@@ -2064,20 +2064,20 @@ you can add resource intensive styles.
     height: 24px;
     position: relative;
     vertical-align: middle;
-    width: 202px;
+    width: 70px;
     background: url("../images/header.png");
     background-size: 239px 24px;
     opacity: .25;
   }
   /* line 40, ../scss/_768up.scss */
   h2:before {
-    right: 0.5em;
+    right: 0.25em;
     margin-left: -50%;
     background-position: left center;
   }
   /* line 46, ../scss/_768up.scss */
   h2:after {
-    left: 0.5em;
+    left: 0.25em;
     margin-right: -50%;
     background-position: right center;
   }
@@ -2102,11 +2102,19 @@ you can add resource intensive styles.
   }
 
   /* line 70, ../scss/_768up.scss */
+  #main .sixcol {
+    width: 97.23757%;
+    margin-left: 0;
+    margin-right: 2.76243%;
+    float: none;
+  }
+
+  /* line 77, ../scss/_768up.scss */
   .eightcol h3 {
     margin-top: 0;
   }
 
-  /* line 74, ../scss/_768up.scss */
+  /* line 81, ../scss/_768up.scss */
   .entry-content p {
     text-align: justify;
   }
@@ -2114,12 +2122,12 @@ you can add resource intensive styles.
   /*********************
   LAYOUT & GRID STYLES
   *********************/
-  /* line 82, ../scss/_768up.scss */
+  /* line 89, ../scss/_768up.scss */
   .wrap {
     max-width: 1140px;
   }
 
-  /* line 86, ../scss/_768up.scss */
+  /* line 93, ../scss/_768up.scss */
   #inner-header, #inner-content {
     background: white;
     position: relative;
@@ -2130,7 +2138,7 @@ you can add resource intensive styles.
     box-shadow: 0px 2px 8px rgba(1, 2, 2, 0.25);
   }
 
-  /* line 93, ../scss/_768up.scss */
+  /* line 100, ../scss/_768up.scss */
   #inner-content::before {
     height: 10px;
     width: 100%;
@@ -2143,25 +2151,25 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
-  /* line 107, ../scss/_768up.scss */
+  /* line 114, ../scss/_768up.scss */
   #header {
     background: none;
     border: none;
     box-shadow: none;
     padding: 0;
   }
-  /* line 113, ../scss/_768up.scss */
+  /* line 120, ../scss/_768up.scss */
   #header #inner-header {
     padding: 0 20px 15px;
     border: none;
     position: relative;
   }
-  /* line 118, ../scss/_768up.scss */
+  /* line 125, ../scss/_768up.scss */
   #header #inner-header #logo {
     display: block;
     margin: -50px 0 -70px 20px;
   }
-  /* line 122, ../scss/_768up.scss */
+  /* line 129, ../scss/_768up.scss */
   #header #inner-header #logo a {
     float: left;
     width: 100px;
@@ -2172,7 +2180,7 @@ you can add resource intensive styles.
     white-space: nowrap;
     overflow: hidden;
   }
-  /* line 132, ../scss/_768up.scss */
+  /* line 139, ../scss/_768up.scss */
   #header #inner-header #menu-top-links {
     display: block;
     border: 0;
@@ -2184,16 +2192,16 @@ you can add resource intensive styles.
     float: right;
     margin: 5px 0 5px 0;
   }
-  /* line 143, ../scss/_768up.scss */
+  /* line 150, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li {
     display: inline-block;
     margin: 0px 10px 0 0;
   }
-  /* line 147, ../scss/_768up.scss */
+  /* line 154, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:last-of-type {
     margin-right: 0px;
   }
-  /* line 151, ../scss/_768up.scss */
+  /* line 158, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li a {
     background: none;
     display: inline-block;
@@ -2205,35 +2213,35 @@ you can add resource intensive styles.
     padding: 0 5px 0 25px;
     text-decoration: none;
   }
-  /* line 162, ../scss/_768up.scss */
+  /* line 169, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li a:hover, #header #inner-header #menu-top-links li a:focus {
     background-position: 0px -16px;
   }
-  /* line 167, ../scss/_768up.scss */
+  /* line 174, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(2) a {
     background-position: 0px -32px;
   }
-  /* line 170, ../scss/_768up.scss */
+  /* line 177, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(2) a:hover, #header #inner-header #menu-top-links li:nth-of-type(2) a:focus {
     background-position: 0px -48px;
   }
-  /* line 175, ../scss/_768up.scss */
+  /* line 182, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(3) a {
     background-position: 0px -64px;
   }
-  /* line 178, ../scss/_768up.scss */
+  /* line 185, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(3) a:hover, #header #inner-header #menu-top-links li:nth-of-type(3) a:focus {
     background-position: 0px -80px;
   }
-  /* line 183, ../scss/_768up.scss */
+  /* line 190, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(4) a {
     background-position: 0px -96px;
   }
-  /* line 186, ../scss/_768up.scss */
+  /* line 193, ../scss/_768up.scss */
   #header #inner-header #menu-top-links li:nth-of-type(4) a:hover, #header #inner-header #menu-top-links li:nth-of-type(4) a:focus {
     background-position: 0px -112px;
   }
-  /* line 193, ../scss/_768up.scss */
+  /* line 200, ../scss/_768up.scss */
   #header #inner-header #header-image {
     display: block;
     max-width: 100%;
@@ -2244,7 +2252,7 @@ you can add resource intensive styles.
     -o-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
     box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   }
-  /* line 200, ../scss/_768up.scss */
+  /* line 207, ../scss/_768up.scss */
   #header #inner-header #book {
     display: table;
     height: 130px;
@@ -2261,19 +2269,19 @@ you can add resource intensive styles.
     font-family: "Bree Serif", Cambria, Times New Roman, Times, serif;
     text-align: center;
   }
-  /* line 216, ../scss/_768up.scss */
+  /* line 223, ../scss/_768up.scss */
   #header #inner-header #book div {
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 10px;
     z-index: 40000;
   }
-  /* line 222, ../scss/_768up.scss */
+  /* line 229, ../scss/_768up.scss */
   #header #inner-header #book div span {
     display: inline;
     padding: 0;
   }
-  /* line 230, ../scss/_768up.scss */
+  /* line 237, ../scss/_768up.scss */
   #header #inner-header #mobile-menu-container {
     display: none;
   }
@@ -2281,7 +2289,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 243, ../scss/_768up.scss */
+  /* line 250, ../scss/_768up.scss */
   #sidebar-nav {
     display: block;
     width: calc(31.4917% + 40px);
@@ -2290,7 +2298,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 248, ../scss/_768up.scss */
+  /* line 255, ../scss/_768up.scss */
   #sidebar-nav .nav {
     background: white url("../images/diagonal.png") top center repeat;
     background-size: 300px 199px;
@@ -2302,28 +2310,28 @@ you can add resource intensive styles.
     padding: 3px 3px;
     /* end .menu ul li */
   }
-  /* line 254, ../scss/_768up.scss */
+  /* line 261, ../scss/_768up.scss */
   #sidebar-nav .nav li {
     background: white;
     margin: 10px;
     /* sub-menus! */
     /* showing sub-menus */
   }
-  /* line 258, ../scss/_768up.scss */
+  /* line 265, ../scss/_768up.scss */
   #sidebar-nav .nav li:hover, #sidebar-nav .nav li:focus {
     background-color: white;
   }
-  /* line 262, ../scss/_768up.scss */
+  /* line 269, ../scss/_768up.scss */
   #sidebar-nav .nav li a {
     font-size: .8em;
   }
-  /* line 265, ../scss/_768up.scss */
+  /* line 272, ../scss/_768up.scss */
   #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
     background-color: #bed5a4;
     border: 1px solid #8db45f;
     color: white;
   }
-  /* line 274, ../scss/_768up.scss */
+  /* line 281, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu,
   #sidebar-nav .nav li ul.children {
     margin: -11px 0 0 0;
@@ -2335,41 +2343,41 @@ you can add resource intensive styles.
     display: none;
     z-index: 8999;
   }
-  /* line 284, ../scss/_768up.scss */
+  /* line 291, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu li,
   #sidebar-nav .nav li ul.children li {
     padding: 3px;
     margin: 10px;
   }
-  /* line 290, ../scss/_768up.scss */
+  /* line 297, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
   #sidebar-nav .nav li ul.children li a:hover,
   #sidebar-nav .nav li ul.children li a:focus {
     background: #a6c482;
   }
-  /* line 301, ../scss/_768up.scss */
+  /* line 308, ../scss/_768up.scss */
   #sidebar-nav .nav li:hover > a {
     background: #d7e5c7;
     border: 1px solid #8db45f;
     color: white;
   }
-  /* line 307, ../scss/_768up.scss */
+  /* line 314, ../scss/_768up.scss */
   #sidebar-nav .nav li:hover ul {
     display: block;
   }
-  /* line 319, ../scss/_768up.scss */
+  /* line 326, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item,
   #sidebar-nav li.current_page_item,
   #sidebar-nav li.current-page-ancestor {
     background: white;
   }
-  /* line 322, ../scss/_768up.scss */
+  /* line 329, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item a,
   #sidebar-nav li.current_page_item a,
   #sidebar-nav li.current-page-ancestor a {
     background: #fcfdfb;
   }
-  /* line 326, ../scss/_768up.scss */
+  /* line 333, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item ul.sub-menu,
   #sidebar-nav li.current_page_item ul.sub-menu,
   #sidebar-nav li.current-page-ancestor ul.sub-menu {
@@ -2380,23 +2388,23 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 338, ../scss/_768up.scss */
+  /* line 345, ../scss/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 343, ../scss/_768up.scss */
+  /* line 350, ../scss/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 348, ../scss/_768up.scss */
+  /* line 355, ../scss/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 356, ../scss/_768up.scss */
+  /* line 363, ../scss/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2416,7 +2424,7 @@ you can add resource intensive styles.
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  /* line 458, ../scss/_768up.scss */
+  /* line 465, ../scss/_768up.scss */
   #main {
     margin-top: 2.2em;
     margin-bottom: 4em;
@@ -2425,17 +2433,17 @@ you can add resource intensive styles.
   /******************************************************************
   FORM STYLES
   ******************************************************************/
-  /* line 471, ../scss/_768up.scss */
+  /* line 478, ../scss/_768up.scss */
   form .wpcf7-list-item {
     margin-left: 5%;
     float: left;
     width: auto;
   }
-  /* line 476, ../scss/_768up.scss */
+  /* line 483, ../scss/_768up.scss */
   form .wpcf7-list-item:nth-of-type(1) {
     margin-left: 0;
   }
-  /* line 481, ../scss/_768up.scss */
+  /* line 488, ../scss/_768up.scss */
   form input[type="checkbox"] + label, form label span {
     float: none;
     display: inline-block;
@@ -2444,17 +2452,17 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 495, ../scss/_768up.scss */
+  /* line 502, ../scss/_768up.scss */
   .footer {
     font-size: .85em;
   }
-  /* line 499, ../scss/_768up.scss */
+  /* line 506, ../scss/_768up.scss */
   .footer .copyright {
     border-top: none;
     padding: 0;
     margin-top: 1em;
   }
-  /* line 504, ../scss/_768up.scss */
+  /* line 511, ../scss/_768up.scss */
   .footer .copyright span {
     display: inline;
   }
@@ -2477,31 +2485,52 @@ you can add resource intensive styles.
   
   ******************************************************************/
   /*********************
+  GENERAL STYLES
+  *********************/
+  /* line 18, ../scss/_1030up.scss */
+  h2:before, h2:after {
+    width: 180px;
+  }
+
+  /* line 24, ../scss/_1030up.scss */
+  #main .sixcol {
+    width: 48.618784527%;
+    margin-left: 0;
+    margin-right: 2.76243%;
+    float: left;
+  }
+
+  /* line 30, ../scss/_1030up.scss */
+  #main .sixcol.last {
+    margin-right: 0;
+  }
+
+  /*********************
   HEADER STYLES
   *********************/
-  /* line 19, ../scss/_1030up.scss */
+  /* line 40, ../scss/_1030up.scss */
   #header #inner-header {
     padding: 0 50px 15px;
   }
-  /* line 22, ../scss/_1030up.scss */
+  /* line 43, ../scss/_1030up.scss */
   #header #inner-header #logo {
     margin: -50px 0 -70px 40px;
   }
-  /* line 25, ../scss/_1030up.scss */
+  /* line 46, ../scss/_1030up.scss */
   #header #inner-header #logo a {
     width: 130px;
     height: 157px;
   }
-  /* line 31, ../scss/_1030up.scss */
+  /* line 52, ../scss/_1030up.scss */
   #header #inner-header #menu-top-links {
     font-size: .8em;
     margin: 10px 0 5px 0;
   }
-  /* line 35, ../scss/_1030up.scss */
+  /* line 56, ../scss/_1030up.scss */
   #header #inner-header #menu-top-links li {
     margin: 0px 20px 0 0;
   }
-  /* line 40, ../scss/_1030up.scss */
+  /* line 61, ../scss/_1030up.scss */
   #header #inner-header #book {
     height: 167px;
     width: 167px;
@@ -2510,7 +2539,7 @@ you can add resource intensive styles.
     font-size: 1.2em;
     line-height: 1.2em;
   }
-  /* line 48, ../scss/_1030up.scss */
+  /* line 69, ../scss/_1030up.scss */
   #header #inner-header #book:after {
     content: "Reserve Your Spot Now";
     padding: 60px 20px;
@@ -2529,7 +2558,7 @@ you can add resource intensive styles.
     transition: opacity 1.5s;
     z-index: 1;
   }
-  /* line 63, ../scss/_1030up.scss */
+  /* line 84, ../scss/_1030up.scss */
   #header #inner-header #book:hover:after {
     opacity: 1;
   }
@@ -2537,7 +2566,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 77, ../scss/_1030up.scss */
+  /* line 98, ../scss/_1030up.scss */
   #sidebar-nav {
     margin: 2.2em 0 2em -50px;
     width: 31.4917%;
@@ -2546,11 +2575,11 @@ you can add resource intensive styles.
   /******************************************************************
   FORM STYLES
   ******************************************************************/
-  /* line 89, ../scss/_1030up.scss */
+  /* line 110, ../scss/_1030up.scss */
   form div {
     padding-top: 20px;
   }
-  /* line 93, ../scss/_1030up.scss */
+  /* line 114, ../scss/_1030up.scss */
   form label {
     width: 20%;
     padding-top: 10px;
@@ -2558,11 +2587,11 @@ you can add resource intensive styles.
     display: block;
     text-align: right;
   }
-  /* line 103, ../scss/_1030up.scss */
+  /* line 124, ../scss/_1030up.scss */
   form .wpcf7-list-item:nth-of-type(1) {
     margin-left: 30px;
   }
-  /* line 112, ../scss/_1030up.scss */
+  /* line 133, ../scss/_1030up.scss */
   form input[type=text],
   form input[type=email],
   form input[type=url],
@@ -2572,7 +2601,7 @@ you can add resource intensive styles.
     float: left;
     width: 75%;
   }
-  /* line 118, ../scss/_1030up.scss */
+  /* line 139, ../scss/_1030up.scss */
   form textarea {
     clear: none;
   }
