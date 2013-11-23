@@ -675,8 +675,8 @@ NAVIGATION STYLES
 /* line 250, ../scss/_768up.scss */
 #sidebar-nav {
   display: block;
-  width: calc(31.4917% + 40px);
-  margin: -6em 0 2em -20px;
+  width: calc(31.4917% + 60px);
+  margin: -6em -20px 2em;
   /* end .nav */
   /* highlight current page */
   /* end current highlighters */
@@ -811,22 +811,23 @@ POSTS & CONTENT STYLES
 #main {
   margin-top: 2.2em;
   margin-bottom: 4em;
+  margin-left: 5.56354%;
 }
 
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 479, ../scss/_768up.scss */
+/* line 480, ../scss/_768up.scss */
 form .wpcf7-list-item {
   margin-left: 5%;
   float: left;
   width: auto;
 }
-/* line 484, ../scss/_768up.scss */
+/* line 485, ../scss/_768up.scss */
 form .wpcf7-list-item:nth-of-type(1) {
   margin-left: 0;
 }
-/* line 489, ../scss/_768up.scss */
+/* line 490, ../scss/_768up.scss */
 form input[type="checkbox"] + label, form label span {
   float: none;
   display: inline-block;
@@ -835,17 +836,17 @@ form input[type="checkbox"] + label, form label span {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 503, ../scss/_768up.scss */
+/* line 504, ../scss/_768up.scss */
 .footer {
   font-size: .85em;
 }
-/* line 507, ../scss/_768up.scss */
+/* line 508, ../scss/_768up.scss */
 .footer .copyright {
   border-top: none;
   padding: 0;
   margin-top: 1em;
 }
-/* line 512, ../scss/_768up.scss */
+/* line 513, ../scss/_768up.scss */
 .footer .copyright span {
   display: inline;
 }

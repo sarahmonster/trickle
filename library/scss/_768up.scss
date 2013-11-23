@@ -249,8 +249,8 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	width: calc(31.4917% + 40px);
-	margin: -6em 0 2em -20px;
+	width: calc(31.4917% + 60px);
+	margin: -6em -20px 2em;
 
 	.nav {
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;
@@ -466,6 +466,7 @@ POSTS & CONTENT STYLES
 #main {
 	margin-top: 2.2em;
 	margin-bottom: 4em;
+	margin-left: 5.56354%;
 }
 
 
