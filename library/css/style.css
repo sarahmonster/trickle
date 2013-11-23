@@ -2293,7 +2293,7 @@ you can add resource intensive styles.
   #sidebar-nav {
     display: block;
     width: calc(31.4917% + 40px);
-    margin: 2.2em 0 2em -20px;
+    margin: -6em 0 2em -20px;
     /* end .nav */
     /* highlight current page */
     /* end current highlighters */
@@ -2568,7 +2568,7 @@ you can add resource intensive styles.
   *********************/
   /* line 98, ../scss/_1030up.scss */
   #sidebar-nav {
-    margin: 2.2em 0 2em -50px;
+    margin: -10em 0 2em -50px;
     width: 31.4917%;
   }
 
