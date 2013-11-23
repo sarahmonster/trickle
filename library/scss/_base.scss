@@ -706,6 +706,7 @@ form {
 	.wpcf7-list-item {
 		width: 100%;
 		margin: 0;
+		color: $blue;
 		
 		label {
 			width: auto;
@@ -714,6 +715,10 @@ form {
 			span {
 				display: inline;
 			}
+			
+			input:checked + span {
+				font-weight: bold;
+  			}
 		}
 	}
 	
