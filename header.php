@@ -57,7 +57,18 @@
 					
 					<?php bones_top_links(); ?>
 					
-					<img id="header-image" src="<?php header_image(); ?>" alt="Cascades Day Spa, Bedford NS" />
+					<?php // determine if header image is a custom image, or pulled randomly from the header pool 
+					if (is_post_type_archive('promotions') OR !has_post_thumbnail()) { 
+						$header_image = get_header_image();
+					} else {
+						$thumb_id = get_post_thumbnail_id();
+						$thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
+						$header_image = $thumb_url[0];
+					}
+					
+					?> 
+					
+					<img id="header-image" src="<?php echo $header_image; ?>" alt="Cascades Day Spa, Bedford NS" />
 					
 					<a id="book" href="<?php echo get_page_link(36); ?>"><div>Book <span>an Appointment</span> Online</div></a>
 					
