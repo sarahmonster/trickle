@@ -808,58 +808,36 @@ POSTS & CONTENT STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 470, ../scss/_768up.scss */
-form div {
-  padding-top: 20px;
-}
-/* line 474, ../scss/_768up.scss */
-form label {
-  width: 20%;
-  padding-top: 10px;
-  float: left;
-  display: block;
-  text-align: right;
-}
-/* line 482, ../scss/_768up.scss */
+/* line 471, ../scss/_768up.scss */
 form .wpcf7-list-item {
   margin-left: 5%;
   float: left;
   width: auto;
 }
-/* line 489, ../scss/_768up.scss */
+/* line 476, ../scss/_768up.scss */
+form .wpcf7-list-item:nth-of-type(1) {
+  margin-left: 0;
+}
+/* line 481, ../scss/_768up.scss */
 form input[type="checkbox"] + label, form label span {
   float: none;
   display: inline-block;
-}
-/* line 498, ../scss/_768up.scss */
-form input[type=text],
-form input[type=email],
-form input[type=url],
-form input[type=tel],
-form textarea {
-  margin-left: 5%;
-  float: left;
-  width: 75%;
-}
-/* line 504, ../scss/_768up.scss */
-form textarea {
-  clear: none;
 }
 
 /*********************
 FOOTER STYLES
 *********************/
-/* line 518, ../scss/_768up.scss */
+/* line 495, ../scss/_768up.scss */
 .footer {
   font-size: .85em;
 }
-/* line 522, ../scss/_768up.scss */
+/* line 499, ../scss/_768up.scss */
 .footer .copyright {
   border-top: none;
   padding: 0;
   margin-top: 1em;
 }
-/* line 527, ../scss/_768up.scss */
+/* line 504, ../scss/_768up.scss */
 .footer .copyright span {
   display: inline;
 }
@@ -939,6 +917,40 @@ NAVIGATION STYLES
 #sidebar-nav {
   margin: 2.2em 0 2em -50px;
   width: 31.4917%;
+}
+
+/******************************************************************
+FORM STYLES
+******************************************************************/
+/* line 89, ../scss/_1030up.scss */
+form div {
+  padding-top: 20px;
+}
+/* line 93, ../scss/_1030up.scss */
+form label {
+  width: 20%;
+  padding-top: 10px;
+  float: left;
+  display: block;
+  text-align: right;
+}
+/* line 103, ../scss/_1030up.scss */
+form .wpcf7-list-item:nth-of-type(1) {
+  margin-left: 30px;
+}
+/* line 112, ../scss/_1030up.scss */
+form input[type=text],
+form input[type=email],
+form input[type=url],
+form input[type=tel],
+form textarea {
+  margin-left: 5%;
+  float: left;
+  width: 75%;
+}
+/* line 118, ../scss/_1030up.scss */
+form textarea {
+  clear: none;
 }
 
 /* 

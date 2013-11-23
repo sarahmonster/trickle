@@ -78,3 +78,46 @@ NAVIGATION STYLES
 	margin: 2.2em 0 2em -50px;
 	width: 31.4917%;
 }
+
+
+/******************************************************************
+FORM STYLES
+******************************************************************/
+
+form {
+	
+	div {
+		padding-top: 20px;
+	}
+	
+	label {
+		width: 20%;
+		padding-top: 10px;
+		float: left;
+		display: block;
+		text-align: right;
+	}
+	
+	.wpcf7-list-item {
+		
+		&:nth-of-type(1) {
+			margin-left: 30px;
+		}
+	}
+
+	input[type=text],
+	input[type=email],
+	input[type=url],
+	input[type=tel],
+	textarea {
+		margin-left: 5%;
+		float: left;
+		width: 75%;
+	}
+	
+	textarea {
+		clear: none;
+	}
+
+
+}
