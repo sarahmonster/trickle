@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
 	}
 	
 	
-	// add all your scripts here
+	// implement slicknav for mobiles
 	$('#mobile-menu').slicknav({
 		label: 'Cascades Day Spa',
 		duration: 1000,
@@ -74,10 +74,15 @@ jQuery(document).ready(function($) {
 		prependTo:'#mobile-menu-container'
 	});
 	
+	// show sub-menus on drop-down
 	$('#menu-main-menu .menu-item-has-children > a').on('click', function(event) {
 		event.preventDefault();
 		$(this).parent().toggleClass('active');
 	});
+	
+	// add sub-menu class to active sub-pages 
+	$('#menu-main-menu .menu-item-has-children.current-menu-parent').removeClass('current-menu-parent').addClass('active');
+	 
  
 }); /* end of as page load scripts */
 

@@ -760,34 +760,27 @@ NAVIGATION STYLES
 #sidebar-nav li.current-page-ancestor a {
   background: #fcfdfb;
 }
-/* line 334, ../scss/_768up.scss */
-#sidebar-nav li.current-menu-item ul.sub-menu,
-#sidebar-nav li.current_page_item ul.sub-menu,
-#sidebar-nav li.current-page-ancestor ul.sub-menu {
-  background: white;
-  display: block;
-}
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 346, ../scss/_768up.scss */
+/* line 343, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 351, ../scss/_768up.scss */
+/* line 348, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 356, ../scss/_768up.scss */
+/* line 353, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 364, ../scss/_768up.scss */
+/* line 361, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -807,7 +800,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 466, ../scss/_768up.scss */
+/* line 463, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
   margin-bottom: 4em;
@@ -817,17 +810,17 @@ POSTS & CONTENT STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 480, ../scss/_768up.scss */
+/* line 477, ../scss/_768up.scss */
 form .wpcf7-list-item {
   margin-left: 5%;
   float: left;
   width: auto;
 }
-/* line 485, ../scss/_768up.scss */
+/* line 482, ../scss/_768up.scss */
 form .wpcf7-list-item:nth-of-type(1) {
   margin-left: 0;
 }
-/* line 490, ../scss/_768up.scss */
+/* line 487, ../scss/_768up.scss */
 form input[type="checkbox"] + label, form label span {
   float: none;
   display: inline-block;
@@ -836,17 +829,17 @@ form input[type="checkbox"] + label, form label span {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 504, ../scss/_768up.scss */
+/* line 501, ../scss/_768up.scss */
 .footer {
   font-size: .85em;
 }
-/* line 508, ../scss/_768up.scss */
+/* line 505, ../scss/_768up.scss */
 .footer .copyright {
   border-top: none;
   padding: 0;
   margin-top: 1em;
 }
-/* line 513, ../scss/_768up.scss */
+/* line 510, ../scss/_768up.scss */
 .footer .copyright span {
   display: inline;
 }
