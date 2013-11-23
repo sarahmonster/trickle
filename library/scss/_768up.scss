@@ -304,7 +304,8 @@ NAVIGATION STYLES
 			}
 	
 			/* showing sub-menus */
-			.active {
+			&.active {
+
 				& > a {
 					background: lighten($green, 30%);
 					border: 1px solid $green;

@@ -2355,29 +2355,29 @@ you can add resource intensive styles.
   #sidebar-nav .nav li ul.children li a:focus {
     background: #a6c482;
   }
-  /* line 308, ../scss/_768up.scss */
-  #sidebar-nav .nav li:hover > a {
+  /* line 309, ../scss/_768up.scss */
+  #sidebar-nav .nav li.active > a {
     background: #d7e5c7;
     border: 1px solid #8db45f;
     color: white;
   }
-  /* line 314, ../scss/_768up.scss */
-  #sidebar-nav .nav li:hover ul {
+  /* line 315, ../scss/_768up.scss */
+  #sidebar-nav .nav li.active ul {
     display: block;
   }
-  /* line 326, ../scss/_768up.scss */
+  /* line 327, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item,
   #sidebar-nav li.current_page_item,
   #sidebar-nav li.current-page-ancestor {
     background: white;
   }
-  /* line 329, ../scss/_768up.scss */
+  /* line 330, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item a,
   #sidebar-nav li.current_page_item a,
   #sidebar-nav li.current-page-ancestor a {
     background: #fcfdfb;
   }
-  /* line 333, ../scss/_768up.scss */
+  /* line 334, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item ul.sub-menu,
   #sidebar-nav li.current_page_item ul.sub-menu,
   #sidebar-nav li.current-page-ancestor ul.sub-menu {
@@ -2388,23 +2388,23 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 345, ../scss/_768up.scss */
+  /* line 346, ../scss/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 350, ../scss/_768up.scss */
+  /* line 351, ../scss/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 355, ../scss/_768up.scss */
+  /* line 356, ../scss/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 363, ../scss/_768up.scss */
+  /* line 364, ../scss/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2424,7 +2424,7 @@ you can add resource intensive styles.
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  /* line 465, ../scss/_768up.scss */
+  /* line 466, ../scss/_768up.scss */
   #main {
     margin-top: 2.2em;
     margin-bottom: 4em;
@@ -2433,17 +2433,17 @@ you can add resource intensive styles.
   /******************************************************************
   FORM STYLES
   ******************************************************************/
-  /* line 478, ../scss/_768up.scss */
+  /* line 479, ../scss/_768up.scss */
   form .wpcf7-list-item {
     margin-left: 5%;
     float: left;
     width: auto;
   }
-  /* line 483, ../scss/_768up.scss */
+  /* line 484, ../scss/_768up.scss */
   form .wpcf7-list-item:nth-of-type(1) {
     margin-left: 0;
   }
-  /* line 488, ../scss/_768up.scss */
+  /* line 489, ../scss/_768up.scss */
   form input[type="checkbox"] + label, form label span {
     float: none;
     display: inline-block;
@@ -2452,17 +2452,17 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 502, ../scss/_768up.scss */
+  /* line 503, ../scss/_768up.scss */
   .footer {
     font-size: .85em;
   }
-  /* line 506, ../scss/_768up.scss */
+  /* line 507, ../scss/_768up.scss */
   .footer .copyright {
     border-top: none;
     padding: 0;
     margin-top: 1em;
   }
-  /* line 511, ../scss/_768up.scss */
+  /* line 512, ../scss/_768up.scss */
   .footer .copyright span {
     display: inline;
   }

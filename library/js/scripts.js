@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
 		prependTo:'#mobile-menu-container'
 	});
 	
-	$('#menu-main-menu .menu-item-has-children a').on('click', function(event) {
+	$('#menu-main-menu .menu-item-has-children > a').on('click', function(event) {
 		event.preventDefault();
 		$(this).parent().toggleClass('active');
 	});
