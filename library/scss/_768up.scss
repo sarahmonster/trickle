@@ -194,44 +194,24 @@ HEADER STYLES
 			display: block;
 			max-width: 100%;
 			border: 10px solid lighten($blue, 45%);
-			@include box-shadow;
-			
+			@include box-shadow;	
 		}
 		
 		#book {
 			display: table;
-			height: 167px;
-			width: 167px;
+			height: 130px;
+			width: 130px;
 			background: url('../images/book-appointment.png') top left;
-			background-size: 334px 167px;
+			background-size: 260px 130px;
 			position: absolute;
-			right: -40px;
+			right: -25px;
 			top: 35%;
-			font-size: 1.2em;
-			line-height: 1.2em;
+			font-size: 1em;
+			line-height: 1em;
 			color: $white;
 			text-decoration: none;
 			font-family: $serif;
 			text-align: center;
-			
-			&:after {
-				content: "Reserve Your Spot Now";
-				padding: 60px 20px;
-				position: absolute;
-				top: 0; 
-				left: 0; 
-				bottom: 0; 
-				right: 0;
-				background: url('../images/book-appointment.png') top right;
-				background-size: 334px 167px;
-				opacity: 0;
-				@include transition(opacity 1.5s);
-				z-index: 1;
-			}
-			
-			&:hover:after {
-				opacity: 1;
-			}
 			
 			div {
 				display: table-cell; 
