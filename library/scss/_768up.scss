@@ -242,7 +242,8 @@ NAVIGATION STYLES
 *********************/
 #sidebar-nav {
 	display: block;
-	margin: 2.2em 0 2em -50px;
+	width: calc(31.4917% + 40px);
+	margin: 2.2em 0 2em -20px;
 
 	.nav {
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;
@@ -259,6 +260,8 @@ NAVIGATION STYLES
 			}
 			
 			a {
+				font-size: .8em;
+				
 				&:hover, &:focus {
 					background-color: lighten($green, 20%);
 					border: 1px solid $green;
