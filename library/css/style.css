@@ -2738,7 +2738,7 @@ be set to display none.
   }
 
   @page {
-    margin: 0.5cm;
+    margin: 2.5cm;
 }
 
   /* line 65, ../scss/_print.scss */
@@ -2753,12 +2753,13 @@ be set to display none.
     page-break-after: avoid;
   }
 
-  /* line 80, ../scss/_print.scss */
+  /* line 81, ../scss/_print.scss */
   .sidebar,
   .page-navigation,
   .wp-prev-next,
   .respond-form,
-  nav {
+  nav,
+  #header {
     display: none;
   }
 }
