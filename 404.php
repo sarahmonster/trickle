@@ -3,20 +3,22 @@
 			<div id="content">
 
 				<div id="inner-content" class="wrap clearfix">
+				
+						<?php get_sidebar(); ?>
 
-					<div id="main" class="eightcol first clearfix" role="main">
+						<div id="main" class="sevencol onepush clearfix" role="main">
 
 						<article id="post-not-found" class="hentry clearfix">
 
 							<header class="article-header">
 
-								<h1><?php _e( 'Epic 404 - Article Not Found', 'bonestheme' ); ?></h1>
+								<h1><?php _e( '404 - Page Not Found', 'bonestheme' ); ?></h1>
 
 							</header> <?php // end article header ?>
 
 							<section class="entry-content">
 
-								<p><?php _e( 'The article you were looking for was not found, but maybe try looking again!', 'bonestheme' ); ?></p>
+								<p><?php _e( 'The page you were looking for was not found. We just revamped the site, so try looking in the navigation, or use the search form below to find what you&rsquo;re looking for.', 'bonestheme' ); ?></p>
 
 							</section> <?php // end article section ?>
 
@@ -26,11 +28,6 @@
 
 							</section> <?php // end search section ?>
 
-							<footer class="article-footer">
-
-									<p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
-
-							</footer> <?php // end article footer ?>
 
 						</article> <?php // end article ?>
 

@@ -139,6 +139,25 @@ form {
 	textarea {
 		clear: none;
 	}
-
+	
+	&#searchform {
+	
+		label {
+			width: 15%;
+		}
+		
+		input[type=text] {
+			width: 60%;
+			margin-left: 2.5%;
+		}
+		
+		input[type=submit] {
+			width: 22%;
+			float: left;
+			clear: none;
+			margin: 0 0 0 .5%;
+		}
+		
+	}
 
 }

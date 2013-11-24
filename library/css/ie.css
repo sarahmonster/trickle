@@ -975,6 +975,22 @@ form textarea {
 form textarea {
   clear: none;
 }
+/* line 145, ../scss/_1030up.scss */
+form#searchform label {
+  width: 15%;
+}
+/* line 149, ../scss/_1030up.scss */
+form#searchform input[type=text] {
+  width: 60%;
+  margin-left: 2.5%;
+}
+/* line 154, ../scss/_1030up.scss */
+form#searchform input[type=submit] {
+  width: 22%;
+  float: left;
+  clear: none;
+  margin: 0 0 0 .5%;
+}
 
 /* 
 you can call the larger styles if you want, but there's really no need 

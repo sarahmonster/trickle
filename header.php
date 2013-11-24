@@ -58,7 +58,7 @@
 					<?php bones_top_links(); ?>
 					
 					<?php // determine if header image is a custom image, or pulled randomly from the header pool 
-					if (is_post_type_archive('promotions') OR !has_post_thumbnail()) { 
+					if (is_search() OR get_post_type() == 'promotions' OR is_post_type_archive('promotions') OR !has_post_thumbnail()) { 
 						$header_image = get_header_image();
 					} else {
 						$thumb_id = get_post_thumbnail_id();
