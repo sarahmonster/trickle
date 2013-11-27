@@ -124,12 +124,14 @@ HEADER STYLES
 		
 		#logo {
 			display: block;
-			margin: -50px 0 -70px 20px;
+			position: absolute;
+			left: -15px;
+			top: 25%;
 			
 			a {
 				float: left;
-				width: 100px;
-				height: 121px;
+				width: 135px;
+				height: 135px;
 				background: url('../images/logo.png');
 				background-size: cover;
 				@include image_replacement;
@@ -250,7 +252,7 @@ NAVIGATION STYLES
 #sidebar-nav {
 	display: block;
 	width: calc(31.4917% + 60px);
-	margin: -6em -20px 2em;
+	margin: 2.2em -20px 2em;
 
 	.nav {
 		background: lighten($green, 50%) url('../images/diagonal.png') top center repeat;
