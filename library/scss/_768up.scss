@@ -146,16 +146,12 @@ HEADER STYLES
 			letter-spacing: 1px;
 			font-size: .7em;
 			min-height: 16px;
-			float: right;
+			float: left;
 			margin: 5px 0 5px 0;
 			
 			li {
 				display: inline-block;
-				margin: 0px 10px 0 0;
-				
-				&:last-of-type {
-					margin-right: 0px;
-				}
+				margin: 0px 0 0 10px;
 				
 				a {
 					background: none;

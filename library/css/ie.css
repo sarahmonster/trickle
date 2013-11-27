@@ -574,19 +574,15 @@ HEADER STYLES
   letter-spacing: 1px;
   font-size: .7em;
   min-height: 16px;
-  float: right;
+  float: left;
   margin: 5px 0 5px 0;
 }
 /* line 152, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li {
   display: inline-block;
-  margin: 0px 10px 0 0;
+  margin: 0px 0 0 10px;
 }
 /* line 156, ../scss/_768up.scss */
-#header #inner-header #menu-top-links li:last-of-type {
-  margin-right: 0px;
-}
-/* line 160, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li a {
   background: none;
   display: inline-block;
@@ -598,35 +594,35 @@ HEADER STYLES
   padding: 0 5px 0 25px;
   text-decoration: none;
 }
-/* line 171, ../scss/_768up.scss */
+/* line 167, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li a:hover, #header #inner-header #menu-top-links li a:focus {
   background-position: 0px -16px;
 }
-/* line 176, ../scss/_768up.scss */
+/* line 172, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(2) a {
   background-position: 0px -32px;
 }
-/* line 179, ../scss/_768up.scss */
+/* line 175, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(2) a:hover, #header #inner-header #menu-top-links li:nth-of-type(2) a:focus {
   background-position: 0px -48px;
 }
-/* line 184, ../scss/_768up.scss */
+/* line 180, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(3) a {
   background-position: 0px -64px;
 }
-/* line 187, ../scss/_768up.scss */
+/* line 183, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(3) a:hover, #header #inner-header #menu-top-links li:nth-of-type(3) a:focus {
   background-position: 0px -80px;
 }
-/* line 192, ../scss/_768up.scss */
+/* line 188, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(4) a {
   background-position: 0px -96px;
 }
-/* line 195, ../scss/_768up.scss */
+/* line 191, ../scss/_768up.scss */
 #header #inner-header #menu-top-links li:nth-of-type(4) a:hover, #header #inner-header #menu-top-links li:nth-of-type(4) a:focus {
   background-position: 0px -112px;
 }
-/* line 202, ../scss/_768up.scss */
+/* line 198, ../scss/_768up.scss */
 #header #inner-header #header-image {
   display: block;
   max-width: 100%;
@@ -637,7 +633,7 @@ HEADER STYLES
   -o-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
 }
-/* line 209, ../scss/_768up.scss */
+/* line 205, ../scss/_768up.scss */
 #header #inner-header #book {
   display: table;
   height: 130px;
@@ -654,19 +650,19 @@ HEADER STYLES
   font-family: "Bree Serif", Cambria, Times New Roman, Times, serif;
   text-align: center;
 }
-/* line 225, ../scss/_768up.scss */
+/* line 221, ../scss/_768up.scss */
 #header #inner-header #book div {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 10px;
   z-index: 40000;
 }
-/* line 231, ../scss/_768up.scss */
+/* line 227, ../scss/_768up.scss */
 #header #inner-header #book div span {
   display: inline;
   padding: 0;
 }
-/* line 239, ../scss/_768up.scss */
+/* line 235, ../scss/_768up.scss */
 #header #inner-header #mobile-menu-container {
   display: none;
 }
@@ -674,7 +670,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 252, ../scss/_768up.scss */
+/* line 248, ../scss/_768up.scss */
 #sidebar-nav {
   display: block;
   width: calc(31.4917% + 60px);
@@ -683,7 +679,7 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 257, ../scss/_768up.scss */
+/* line 253, ../scss/_768up.scss */
 #sidebar-nav .nav {
   background: white url("../images/diagonal.png") top center repeat;
   background-size: 300px 199px;
@@ -695,28 +691,28 @@ NAVIGATION STYLES
   padding: 3px 3px;
   /* end .menu ul li */
 }
-/* line 263, ../scss/_768up.scss */
+/* line 259, ../scss/_768up.scss */
 #sidebar-nav .nav li {
   background: white;
   margin: 10px;
   /* sub-menus! */
   /* showing sub-menus */
 }
-/* line 267, ../scss/_768up.scss */
+/* line 263, ../scss/_768up.scss */
 #sidebar-nav .nav li:hover, #sidebar-nav .nav li:focus {
   background-color: white;
 }
-/* line 271, ../scss/_768up.scss */
+/* line 267, ../scss/_768up.scss */
 #sidebar-nav .nav li a {
   font-size: .8em;
 }
-/* line 274, ../scss/_768up.scss */
+/* line 270, ../scss/_768up.scss */
 #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
   background-color: #bed5a4;
   border: 1px solid #8db45f;
   color: white;
 }
-/* line 283, ../scss/_768up.scss */
+/* line 279, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu,
 #sidebar-nav .nav li ul.children {
   margin: -11px 0 0 0;
@@ -728,35 +724,35 @@ NAVIGATION STYLES
   display: none;
   z-index: 8999;
 }
-/* line 293, ../scss/_768up.scss */
+/* line 289, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li,
 #sidebar-nav .nav li ul.children li {
   padding: 3px;
   margin: 10px;
 }
-/* line 299, ../scss/_768up.scss */
+/* line 295, ../scss/_768up.scss */
 #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
 #sidebar-nav .nav li ul.children li a:hover,
 #sidebar-nav .nav li ul.children li a:focus {
   background: #a6c482;
 }
-/* line 311, ../scss/_768up.scss */
+/* line 307, ../scss/_768up.scss */
 #sidebar-nav .nav li.active > a {
   background: #d7e5c7;
   border: 1px solid #8db45f;
   color: white;
 }
-/* line 317, ../scss/_768up.scss */
+/* line 313, ../scss/_768up.scss */
 #sidebar-nav .nav li.active ul {
   display: block;
 }
-/* line 329, ../scss/_768up.scss */
+/* line 325, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item,
 #sidebar-nav li.current_page_item,
 #sidebar-nav li.current-page-ancestor {
   background: white;
 }
-/* line 332, ../scss/_768up.scss */
+/* line 328, ../scss/_768up.scss */
 #sidebar-nav li.current-menu-item a,
 #sidebar-nav li.current_page_item a,
 #sidebar-nav li.current-page-ancestor a {
@@ -766,23 +762,23 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 345, ../scss/_768up.scss */
+/* line 341, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 350, ../scss/_768up.scss */
+/* line 346, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 355, ../scss/_768up.scss */
+/* line 351, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 363, ../scss/_768up.scss */
+/* line 359, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -802,7 +798,7 @@ SIDEBARS & ASIDES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 465, ../scss/_768up.scss */
+/* line 461, ../scss/_768up.scss */
 #main {
   margin-top: 2.2em;
   margin-bottom: 4em;
@@ -812,17 +808,17 @@ POSTS & CONTENT STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 479, ../scss/_768up.scss */
+/* line 475, ../scss/_768up.scss */
 form .wpcf7-list-item {
   margin-left: 5%;
   float: left;
   width: auto;
 }
-/* line 484, ../scss/_768up.scss */
+/* line 480, ../scss/_768up.scss */
 form .wpcf7-list-item:nth-of-type(1) {
   margin-left: 0;
 }
-/* line 489, ../scss/_768up.scss */
+/* line 485, ../scss/_768up.scss */
 form input[type="checkbox"] + label, form label span {
   float: none;
   display: inline-block;
@@ -831,17 +827,17 @@ form input[type="checkbox"] + label, form label span {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 503, ../scss/_768up.scss */
+/* line 499, ../scss/_768up.scss */
 .footer {
   font-size: .85em;
 }
-/* line 507, ../scss/_768up.scss */
+/* line 503, ../scss/_768up.scss */
 .footer .copyright {
   border-top: none;
   padding: 0;
   margin-top: 1em;
 }
-/* line 512, ../scss/_768up.scss */
+/* line 508, ../scss/_768up.scss */
 .footer .copyright span {
   display: inline;
 }
@@ -900,9 +896,13 @@ HEADER STYLES
 }
 /* line 56, ../scss/_1030up.scss */
 #header #inner-header #menu-top-links li {
-  margin: 0px 20px 0 0;
+  margin: 0px 0 0 20px;
 }
-/* line 61, ../scss/_1030up.scss */
+/* line 59, ../scss/_1030up.scss */
+#header #inner-header #menu-top-links li:first-of-type {
+  margin-left: 10px;
+}
+/* line 65, ../scss/_1030up.scss */
 #header #inner-header #book {
   height: 167px;
   width: 167px;
@@ -911,7 +911,7 @@ HEADER STYLES
   font-size: 1.2em;
   line-height: 1.2em;
 }
-/* line 69, ../scss/_1030up.scss */
+/* line 73, ../scss/_1030up.scss */
 #header #inner-header #book:after {
   content: "Reserve Your Spot Now";
   padding: 60px 20px;
@@ -930,7 +930,7 @@ HEADER STYLES
   transition: opacity 1.5s;
   z-index: 1;
 }
-/* line 84, ../scss/_1030up.scss */
+/* line 88, ../scss/_1030up.scss */
 #header #inner-header #book:hover:after {
   opacity: 1;
 }
@@ -938,7 +938,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 98, ../scss/_1030up.scss */
+/* line 102, ../scss/_1030up.scss */
 #sidebar-nav {
   margin: 2.2em 0 2em -50px;
   width: 31.4917%;
@@ -947,11 +947,11 @@ NAVIGATION STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 110, ../scss/_1030up.scss */
+/* line 114, ../scss/_1030up.scss */
 form div {
   padding-top: 20px;
 }
-/* line 114, ../scss/_1030up.scss */
+/* line 118, ../scss/_1030up.scss */
 form label {
   width: 20%;
   padding-top: 10px;
@@ -959,11 +959,11 @@ form label {
   display: block;
   text-align: right;
 }
-/* line 124, ../scss/_1030up.scss */
+/* line 128, ../scss/_1030up.scss */
 form .wpcf7-list-item:nth-of-type(1) {
   margin-left: 30px;
 }
-/* line 133, ../scss/_1030up.scss */
+/* line 137, ../scss/_1030up.scss */
 form input[type=text],
 form input[type=email],
 form input[type=url],
@@ -973,20 +973,20 @@ form textarea {
   float: left;
   width: 75%;
 }
-/* line 139, ../scss/_1030up.scss */
+/* line 143, ../scss/_1030up.scss */
 form textarea {
   clear: none;
 }
-/* line 145, ../scss/_1030up.scss */
+/* line 149, ../scss/_1030up.scss */
 form#searchform label {
   width: 15%;
 }
-/* line 149, ../scss/_1030up.scss */
+/* line 153, ../scss/_1030up.scss */
 form#searchform input[type=text] {
   width: 60%;
   margin-left: 2.5%;
 }
-/* line 154, ../scss/_1030up.scss */
+/* line 158, ../scss/_1030up.scss */
 form#searchform input[type=submit] {
   width: 22%;
   float: left;
