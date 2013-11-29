@@ -68,9 +68,11 @@
 					
 					?> 
 					
+					<a id="book" href="<?php echo get_page_link(32); ?>"><div>Book <span>an Appointment</span> Online</div></a>
+					
 					<img id="header-image" src="<?php echo $header_image; ?>" alt="Cascades Day Spa, Bedford NS" />
 					
-					<a id="book" href="<?php echo get_page_link(36); ?>"><div>Book <span>an Appointment</span> Online</div></a>
+					<a id="giftcard" href="<?php echo get_page_link(36); ?>"><div>Buy Gift Certificates</div></a>
 					
 				</div> <?php // end #inner-header ?>
 
