@@ -72,32 +72,11 @@ HEADER STYLES
 		}
 		
 		#giftcard {
-			height: 167px;
-			width: 167px;
-			background-size: 334px 167px;
-			right: -40px;
-			font-size: 1.2em;
-			line-height: 1.2em;
-			
-			&:after {
-				content: "Instant & Online!";
-				padding: 60px 20px;
-				position: absolute;
-				top: 0; 
-				left: 0; 
-				bottom: 0; 
-				right: 0;
-				background: url('../images/book-appointment.png') top right;
-				background-size: 334px 167px;
-				opacity: 0;
-				@include transition(opacity 1.5s);
-				z-index: 1;
-			}
-			
-			&:hover:after {
-				opacity: 1;
-			}
-		
+			width: 130px;
+			right: 80px;
+			bottom: 45px;
+			font-size: .9em;
+			border-width: 4px;
 		}
 		
 	}

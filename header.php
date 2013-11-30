@@ -72,7 +72,7 @@
 					
 					<a id="book" href="<?php echo get_page_link(36); ?>"><div>Book <span>an Appointment</span> Online</div></a>
 					
-					<a id="giftcard" href="<?php echo get_page_link(32); ?>"><div>Buy Gift Certificates</div></a>
+					<a id="giftcard" href="<?php echo get_page_link(32); ?>">Buy Instant<br>Gift Cards</a>
 					
 				</div> <?php // end #inner-header ?>
 
