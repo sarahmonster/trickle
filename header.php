@@ -8,9 +8,11 @@
 	<head>
 		<meta charset="utf-8">
 
-		<?php // Google Chrome Frame for IE ?>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
+		<?php // Google Chrome Frame for IE 
+		if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false)):
+	        header('X-UA-Compatible: IE=edge,chrome=1');
+		endif; ?>
+		
 		<title><?php wp_title(''); ?></title>
 
 		<?php // mobile meta (hooray!) ?>
