@@ -125,8 +125,8 @@ HEADER STYLES
 		#logo {
 			display: block;
 			position: absolute;
-			left: -15px;
-			top: 25%;
+			left: 40px;
+			top: -40px;
 			
 			a {
 				float: left;
@@ -146,7 +146,7 @@ HEADER STYLES
 			letter-spacing: 1px;
 			font-size: .7em;
 			min-height: 16px;
-			float: left;
+			float: right;
 			margin: 5px 0 5px 0;
 			
 			li {
@@ -202,46 +202,31 @@ HEADER STYLES
 			@include box-shadow;	
 		}
 		
-		#book {
+		#giftcard, #book {
 			display: block;
-			position: absolute;
-			top: -50px;
-			right: 40px;
-			width: 111px;
-			height: 133px;
-			background: url('../images/ribbon.png') top left;
-			background-size: 111px 133px;			
-			text-decoration: none;
-			text-align: center;
-			font-family: $serif;
-			font-size: .8em;
-			color: darken($green, 10%);
-			line-height: 1em;
-			padding: 60px 20px 0 15px;
-			
-			&:hover {
-				color: darken($green, 20%);
-			}
-		}
-		
-		#giftcard {
-			display: block;
-			width: 111px;
+			width: 175px;
 			position: absolute;
 			border: 2px solid $white;
 			background: $purple;
 			@include box-shadow;
 			right: 40px;
-			bottom: 35px;
 			padding: 10px 10px;
 			color: $white;
 			text-decoration: none;
 			text-align: center;
-			font-size: .8em;
+			font-size: .7em;
 			font-family: $sans-serif;
 			text-transform: uppercase;
 			font-weight: bolder;
 			line-height: 1.4em;	
+		}
+		
+		#giftcard {
+			bottom: 50px;
+		}
+		
+		#book {
+			bottom: 125px;
 		}
 		
 		#mobile-menu-container {

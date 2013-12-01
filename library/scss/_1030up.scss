@@ -41,7 +41,7 @@ HEADER STYLES
 		padding: 0 50px 15px;
 		
 		#logo {
-			left: -25px;
+			left: 75px;
 					
 			a {
 				width: 150px;
@@ -62,21 +62,17 @@ HEADER STYLES
 			}
 		}
 		
-		#book {
-			top: -40px;
-			right: 80px;
-			width: 130px;
-			height: 156px;
-			background-size: 130px 156px;			
-			font-size: 1em;
+		#giftcard, #book {
+			right: 80px;		
+			font-size: .9em;
 		}
 		
 		#giftcard {
-			width: 130px;
-			right: 80px;
 			bottom: 45px;
-			font-size: .9em;
-			border-width: 4px;
+		}
+		
+		#book {
+			bottom: 130px;
 		}
 		
 	}
