@@ -2327,6 +2327,12 @@ you can add resource intensive styles.
     position: absolute;
     border: 2px solid white;
     background: #887984;
+    background-color: #6d616a;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#887984), to(#6d616a));
+    background-image: -webkit-linear-gradient(top, #887984, #6d616a);
+    background-image: -moz-linear-gradient(top, #887984, #6d616a);
+    background-image: -o-linear-gradient(top, #887984, #6d616a);
+    background-image: linear-gradient(to bottom, #887984, #6d616a);
     -webkit-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
     -ms-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
     -moz-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
@@ -2344,14 +2350,30 @@ you can add resource intensive styles.
     line-height: 1.4em;
   }
   /* line 224, ../scss/_768up.scss */
+  #header #inner-header #giftcard:hover, #header #inner-header #book:hover {
+    color: white;
+    background-color: #618295;
+    background-color: #4d6776;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#618295), to(#4d6776));
+    background-image: -webkit-linear-gradient(top, #618295, #4d6776);
+    background-image: -moz-linear-gradient(top, #618295, #4d6776);
+    background-image: -o-linear-gradient(top, #618295, #4d6776);
+    background-image: linear-gradient(to bottom, #618295, #4d6776);
+    -webkit-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.9);
+    -ms-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.9);
+    -moz-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.9);
+    -o-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.9);
+    box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.9);
+  }
+  /* line 232, ../scss/_768up.scss */
   #header #inner-header #giftcard {
     bottom: 50px;
   }
-  /* line 228, ../scss/_768up.scss */
+  /* line 236, ../scss/_768up.scss */
   #header #inner-header #book {
     bottom: 125px;
   }
-  /* line 232, ../scss/_768up.scss */
+  /* line 240, ../scss/_768up.scss */
   #header #inner-header #mobile-menu-container {
     display: none;
   }
@@ -2359,7 +2381,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 245, ../scss/_768up.scss */
+  /* line 253, ../scss/_768up.scss */
   #sidebar-nav {
     display: block;
     width: calc(31.4917% + 60px);
@@ -2368,7 +2390,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 250, ../scss/_768up.scss */
+  /* line 258, ../scss/_768up.scss */
   #sidebar-nav .nav {
     background: white url("../images/diagonal.png") top center repeat;
     background-size: 300px 199px;
@@ -2380,28 +2402,28 @@ you can add resource intensive styles.
     padding: 3px 3px;
     /* end .menu ul li */
   }
-  /* line 256, ../scss/_768up.scss */
+  /* line 264, ../scss/_768up.scss */
   #sidebar-nav .nav li {
     background: white;
     margin: 10px;
     /* sub-menus! */
     /* showing sub-menus */
   }
-  /* line 260, ../scss/_768up.scss */
+  /* line 268, ../scss/_768up.scss */
   #sidebar-nav .nav li:hover, #sidebar-nav .nav li:focus {
     background-color: white;
   }
-  /* line 264, ../scss/_768up.scss */
+  /* line 272, ../scss/_768up.scss */
   #sidebar-nav .nav li a {
     font-size: .8em;
   }
-  /* line 267, ../scss/_768up.scss */
+  /* line 275, ../scss/_768up.scss */
   #sidebar-nav .nav li a:hover, #sidebar-nav .nav li a:focus {
     background-color: #bed5a4;
     border: 1px solid #8db45f;
     color: white;
   }
-  /* line 276, ../scss/_768up.scss */
+  /* line 284, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu,
   #sidebar-nav .nav li ul.children {
     margin: -11px 0 0 0;
@@ -2413,35 +2435,35 @@ you can add resource intensive styles.
     display: none;
     z-index: 8999;
   }
-  /* line 286, ../scss/_768up.scss */
+  /* line 294, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu li,
   #sidebar-nav .nav li ul.children li {
     padding: 3px;
     margin: 10px;
   }
-  /* line 292, ../scss/_768up.scss */
+  /* line 300, ../scss/_768up.scss */
   #sidebar-nav .nav li ul.sub-menu li a:hover, #sidebar-nav .nav li ul.sub-menu li a:focus,
   #sidebar-nav .nav li ul.children li a:hover,
   #sidebar-nav .nav li ul.children li a:focus {
     background: #a6c482;
   }
-  /* line 304, ../scss/_768up.scss */
+  /* line 312, ../scss/_768up.scss */
   #sidebar-nav .nav li.active > a {
     background: #d7e5c7;
     border: 1px solid #8db45f;
     color: white;
   }
-  /* line 310, ../scss/_768up.scss */
+  /* line 318, ../scss/_768up.scss */
   #sidebar-nav .nav li.active ul {
     display: block;
   }
-  /* line 322, ../scss/_768up.scss */
+  /* line 330, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item,
   #sidebar-nav li.current_page_item,
   #sidebar-nav li.current-page-ancestor {
     background: white;
   }
-  /* line 325, ../scss/_768up.scss */
+  /* line 333, ../scss/_768up.scss */
   #sidebar-nav li.current-menu-item a,
   #sidebar-nav li.current_page_item a,
   #sidebar-nav li.current-page-ancestor a {
@@ -2451,23 +2473,23 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 338, ../scss/_768up.scss */
+  /* line 346, ../scss/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 343, ../scss/_768up.scss */
+  /* line 351, ../scss/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 348, ../scss/_768up.scss */
+  /* line 356, ../scss/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 356, ../scss/_768up.scss */
+  /* line 364, ../scss/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2487,7 +2509,7 @@ you can add resource intensive styles.
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  /* line 458, ../scss/_768up.scss */
+  /* line 466, ../scss/_768up.scss */
   #main {
     margin-top: 2.2em;
     margin-bottom: 4em;
@@ -2497,17 +2519,17 @@ you can add resource intensive styles.
   /******************************************************************
   FORM STYLES
   ******************************************************************/
-  /* line 472, ../scss/_768up.scss */
+  /* line 480, ../scss/_768up.scss */
   form .wpcf7-list-item {
     margin-left: 5%;
     float: left;
     width: auto;
   }
-  /* line 477, ../scss/_768up.scss */
+  /* line 485, ../scss/_768up.scss */
   form .wpcf7-list-item:nth-of-type(1) {
     margin-left: 0;
   }
-  /* line 482, ../scss/_768up.scss */
+  /* line 490, ../scss/_768up.scss */
   form input[type="checkbox"] + label, form label span {
     float: none;
     display: inline-block;
@@ -2516,17 +2538,17 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 496, ../scss/_768up.scss */
+  /* line 504, ../scss/_768up.scss */
   .footer {
     font-size: .85em;
   }
-  /* line 500, ../scss/_768up.scss */
+  /* line 508, ../scss/_768up.scss */
   .footer .copyright {
     border-top: none;
     padding: 0;
     margin-top: 1em;
   }
-  /* line 505, ../scss/_768up.scss */
+  /* line 513, ../scss/_768up.scss */
   .footer .copyright span {
     display: inline;
   }
@@ -2602,12 +2624,13 @@ you can add resource intensive styles.
   #header #inner-header #giftcard, #header #inner-header #book {
     right: 80px;
     font-size: .9em;
+    border-width: 3px;
   }
-  /* line 70, ../scss/_1030up.scss */
+  /* line 71, ../scss/_1030up.scss */
   #header #inner-header #giftcard {
     bottom: 45px;
   }
-  /* line 74, ../scss/_1030up.scss */
+  /* line 75, ../scss/_1030up.scss */
   #header #inner-header #book {
     bottom: 130px;
   }
@@ -2615,7 +2638,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 86, ../scss/_1030up.scss */
+  /* line 87, ../scss/_1030up.scss */
   #sidebar-nav {
     margin: 2.2em 0 2em -50px;
     width: 31.4917%;
@@ -2624,11 +2647,11 @@ you can add resource intensive styles.
   /******************************************************************
   FORM STYLES
   ******************************************************************/
-  /* line 98, ../scss/_1030up.scss */
+  /* line 99, ../scss/_1030up.scss */
   form div {
     padding-top: 20px;
   }
-  /* line 102, ../scss/_1030up.scss */
+  /* line 103, ../scss/_1030up.scss */
   form label {
     width: 20%;
     padding-top: 10px;
@@ -2636,11 +2659,11 @@ you can add resource intensive styles.
     display: block;
     text-align: right;
   }
-  /* line 112, ../scss/_1030up.scss */
+  /* line 113, ../scss/_1030up.scss */
   form .wpcf7-list-item:nth-of-type(1) {
     margin-left: 30px;
   }
-  /* line 121, ../scss/_1030up.scss */
+  /* line 122, ../scss/_1030up.scss */
   form input[type=text],
   form input[type=email],
   form input[type=url],
@@ -2650,20 +2673,20 @@ you can add resource intensive styles.
     float: left;
     width: 75%;
   }
-  /* line 127, ../scss/_1030up.scss */
+  /* line 128, ../scss/_1030up.scss */
   form textarea {
     clear: none;
   }
-  /* line 133, ../scss/_1030up.scss */
+  /* line 134, ../scss/_1030up.scss */
   form#searchform label {
     width: 15%;
   }
-  /* line 137, ../scss/_1030up.scss */
+  /* line 138, ../scss/_1030up.scss */
   form#searchform input[type=text] {
     width: 60%;
     margin-left: 2.5%;
   }
-  /* line 142, ../scss/_1030up.scss */
+  /* line 143, ../scss/_1030up.scss */
   form#searchform input[type=submit] {
     width: 22%;
     float: left;

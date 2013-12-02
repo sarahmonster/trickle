@@ -208,10 +208,11 @@ HEADER STYLES
 			position: absolute;
 			border: 2px solid $white;
 			background: $purple;
+			@include css-gradient($purple, darken($purple, 10%));
 			@include box-shadow;
 			right: 40px;
 			padding: 10px 10px;
-			color: $white;
+			color: lighten($purple, 50%);
 			text-decoration: none;
 			text-align: center;
 			font-size: .7em;
@@ -219,6 +220,13 @@ HEADER STYLES
 			text-transform: uppercase;
 			font-weight: bolder;
 			line-height: 1.4em;	
+
+			&:hover {
+				color: $white;
+				background-color: $blue;
+				@include css-gradient($blue, darken($blue, 10%));
+				@include box-shadow ($shadow-color: rgba(1, 2, 2, .9));
+			}
 		}
 		
 		#giftcard {
