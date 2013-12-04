@@ -60,7 +60,17 @@
 					<?php bones_top_links(); ?>
 					
 					<?php // determine if header image is a custom image, or pulled randomly from the header pool 
-					if (is_search() OR get_post_type() == 'promotions' OR is_post_type_archive('promotions') OR !has_post_thumbnail()) { 
+					if (is_front_page()) {
+						$random = rand(1, 100);
+						if ($random % 2 == '0') {
+							$code = "lobby";
+						} else {
+							$code = "exterior";
+						}
+						$header_image = get_template_directory_uri() . "/library/images/". $code .".jpg";
+					}
+					
+					elseif (is_search() OR get_post_type() == 'promotions' OR is_post_type_archive('promotions') OR !has_post_thumbnail()) { 
 						$header_image = get_header_image();
 					} else {
 						$thumb_id = get_post_thumbnail_id();
