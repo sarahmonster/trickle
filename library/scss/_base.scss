@@ -101,6 +101,19 @@ a, a:visited {
 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
 	}
 }
+/*********************
+SELECTED TEXT
+*********************/
+
+::selection {
+	background: lighten($purple, 40%);
+	color: darken($black, 10%);
+}
+
+::-moz-selection {
+	background: lighten($purple, 40%);
+	color: darken($black, 10%);
+}
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
