@@ -198,7 +198,7 @@ HEADER STYLES
 		#header-image {
 			display: block;
 			max-width: 100%;
-			border: 10px solid lighten($blue, 45%);
+			border: 8px solid lighten($blue, 45%);
 			@include box-shadow;	
 		}
 		
@@ -230,11 +230,11 @@ HEADER STYLES
 		}
 		
 		#giftcard {
-			bottom: 50px;
+			bottom: 34px;
 		}
 		
 		#book {
-			bottom: 125px;
+			bottom: 85px;
 		}
 		
 		#mobile-menu-container {

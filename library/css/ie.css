@@ -626,7 +626,7 @@ HEADER STYLES
 #header #inner-header #header-image {
   display: block;
   max-width: 100%;
-  border: 10px solid #eaeff1;
+  border: 8px solid #eaeff1;
   -webkit-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   -ms-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
   -moz-box-shadow: 0px 2px 4px rgba(1, 2, 2, 0.25);
@@ -680,11 +680,11 @@ HEADER STYLES
 }
 /* line 232, ../scss/_768up.scss */
 #header #inner-header #giftcard {
-  bottom: 50px;
+  bottom: 34px;
 }
 /* line 236, ../scss/_768up.scss */
 #header #inner-header #book {
-  bottom: 125px;
+  bottom: 85px;
 }
 /* line 240, ../scss/_768up.scss */
 #header #inner-header #mobile-menu-container {
@@ -927,16 +927,24 @@ HEADER STYLES
   margin-left: 10px;
 }
 /* line 65, ../scss/_1030up.scss */
+#header #inner-header #header-image {
+  border-width: 10px;
+}
+/* line 69, ../scss/_1030up.scss */
 #header #inner-header #giftcard, #header #inner-header #book {
   right: 80px;
   font-size: .9em;
   border-width: 3px;
 }
-/* line 71, ../scss/_1030up.scss */
+/* line 75, ../scss/_1030up.scss */
 #header #inner-header #giftcard {
   bottom: 45px;
 }
-/* line 75, ../scss/_1030up.scss */
+/* line 78, ../scss/_1030up.scss */
+#header #inner-header #giftcard span {
+  display: block;
+}
+/* line 83, ../scss/_1030up.scss */
 #header #inner-header #book {
   bottom: 130px;
 }
@@ -944,7 +952,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 87, ../scss/_1030up.scss */
+/* line 95, ../scss/_1030up.scss */
 #sidebar-nav {
   margin: 2.2em 0 2em -50px;
   width: 31.4917%;
@@ -953,11 +961,11 @@ NAVIGATION STYLES
 /******************************************************************
 FORM STYLES
 ******************************************************************/
-/* line 99, ../scss/_1030up.scss */
+/* line 107, ../scss/_1030up.scss */
 form div {
   padding-top: 20px;
 }
-/* line 103, ../scss/_1030up.scss */
+/* line 111, ../scss/_1030up.scss */
 form label {
   width: 20%;
   padding-top: 10px;
@@ -965,11 +973,11 @@ form label {
   display: block;
   text-align: right;
 }
-/* line 113, ../scss/_1030up.scss */
+/* line 121, ../scss/_1030up.scss */
 form .wpcf7-list-item:nth-of-type(1) {
   margin-left: 30px;
 }
-/* line 122, ../scss/_1030up.scss */
+/* line 130, ../scss/_1030up.scss */
 form input[type=text],
 form input[type=email],
 form input[type=url],
@@ -979,20 +987,20 @@ form textarea {
   float: left;
   width: 75%;
 }
-/* line 128, ../scss/_1030up.scss */
+/* line 136, ../scss/_1030up.scss */
 form textarea {
   clear: none;
 }
-/* line 134, ../scss/_1030up.scss */
+/* line 142, ../scss/_1030up.scss */
 form#searchform label {
   width: 15%;
 }
-/* line 138, ../scss/_1030up.scss */
+/* line 146, ../scss/_1030up.scss */
 form#searchform input[type=text] {
   width: 60%;
   margin-left: 2.5%;
 }
-/* line 143, ../scss/_1030up.scss */
+/* line 151, ../scss/_1030up.scss */
 form#searchform input[type=submit] {
   width: 22%;
   float: left;
