@@ -62,11 +62,14 @@
 					<?php // determine if header image is a custom image, or pulled randomly from the header pool 
 					if (is_front_page()) {
 						$random = rand(1, 100);
+						$code = "lobby";
+						/*
 						if ($random % 2 == '0') {
 							$code = "lobby";
 						} else {
 							$code = "exterior";
 						}
+						*/
 						$header_image = get_template_directory_uri() . "/library/images/". $code .".jpg";
 					}
 					
