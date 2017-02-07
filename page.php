@@ -22,7 +22,7 @@
 									<?php if ( is_front_page() AND 0 !== wp_count_posts( 'promotions' )->publish ): ?>
 										<h2><a href="/promotions">Current Promotions</a></h2>
 										<?php
-										$queryObject = new WP_Query( 'post_type=promotions&posts_per_page=1' );
+										$queryObject = new WP_Query( 'post_type=promotions&posts_per_page=3' );
 										// The Loop!
 										if ($queryObject->have_posts()) {
 
