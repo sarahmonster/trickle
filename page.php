@@ -30,6 +30,7 @@
 										        $queryObject->the_post();
 										        ?>
 
+										<div>
 										 <div class="fourcol first clearfix">
 										 <?php the_post_thumbnail('full'); ?>
 										 </div>
@@ -38,6 +39,7 @@
 											 <h3><?php the_title(); ?></h3>
 											 <?php the_content(); ?>
 										</div>
+									</div>
 										    <?php
 										    }
 										    ?>
