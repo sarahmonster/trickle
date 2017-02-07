@@ -13,7 +13,7 @@
 	        header('X-UA-Compatible: IE=edge,chrome=1');
 		endif; ?>
 		
-		<title><?php wp_title('Cascades Spa'); ?></title>
+		<title><?php wp_title(''); ?></title>
 
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
